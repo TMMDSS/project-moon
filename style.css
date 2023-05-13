@@ -1,0 +1,64 @@
+@charset 'utf-8';
+@font-face {
+    font-family: pacita;
+    src: url(fontes/pecita/Pecita.ttf);
+}
+
+@font-face {
+    font-family: CleanDirty;
+    src: url(fontes/CleanDirty/CleanDirty.ttf);
+}
+
+@font-face {
+    font-family: Mites;
+    src: url(fontes/Dust-mites/Dust\ Mites.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+:root {
+    --cor-kokushibo--1: #150B05;
+    --cor-kokushibo--2: #9E1931;
+    --cor-kokushibo--3: #B8031F;
+    --cor-kokushibo--4: #F5C651;
+
+    --cor-douma--1: #CEB394;
+    --cor-douma--2: #DCD8CC;
+    --cor-douma--3: #9CF3FE;
+    --cor-douma--4: #FAFC8E;
+
+    --cor-akaza--1: #5C6F7A;
+    --cor-akaza--2: #4E5F73;
+    --cor-akaza--3: #0F274D;
+    --cor-akaza--4: #F9FAD6;
+
+    --cor-hantengu--1: #5F0B13;
+    --cor-hantengu--2: #3A2327;
+    --cor-hantengu--3: #220E17;
+    --cor-hantengu--4: #101012;
+
+    --cor-gyokko--1: #C87F57;
+    --cor-gyokko--2: #5F3857;
+    --cor-gyokko--3: #FBCCB5;
+    --cor-gyokko--4: #FCCAB2;
+
+    --cor-gyutaro--1: #3B2C07;
+    --cor-gyutaro--2: #4C2A1D;
+    --cor-gyutaro--3: #F3A686;
+    --cor-gyutaro--4: #260A08;
+
+
+    --fonte--1: pacita;
+    --fonte--2: CleanDirty;
+    --fonte--3: Mites;
+
+
+}
+
+
