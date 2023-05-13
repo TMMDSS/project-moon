@@ -29,9 +29,9 @@
     --cor-kokushibo--4: #F5C651;
 
     --cor-douma--1: #CEB394;
-    --cor-douma--2: #DCD8CC;
-    --cor-douma--3: #9CF3FE;
-    --cor-douma--4: #FAFC8E;
+    --cor-douma--2: #c9bb6c;
+    --cor-douma--3: #76b4ee;
+    --cor-douma--4: #f52559;
 
     --cor-akaza--1: #5C6F7A;
     --cor-akaza--2: #4E5F73;
@@ -44,14 +44,14 @@
     --cor-hantengu--4: #101012;
 
     --cor-gyokko--1: #C87F57;
-    --cor-gyokko--2: #5F3857;
+    --cor-gyokko--2: #ad2091;
     --cor-gyokko--3: #FBCCB5;
     --cor-gyokko--4: #FCCAB2;
 
-    --cor-gyutaro--1: #3B2C07;
+    --cor-gyutaro--1: #33b613;
     --cor-gyutaro--2: #4C2A1D;
     --cor-gyutaro--3: #F3A686;
-    --cor-gyutaro--4: #260A08;
+    --cor-gyutaro--4: #ca0bba;
 
 
     --fonte--1: pacita;
@@ -59,6 +59,24 @@
     --fonte--3: Mites;
 
 
+}
+
+@keyframes identifierTitulo {
+    0% {
+        height: 0px;
+    }
+    25% {
+        height: 25px;
+    }
+    50% {
+        height: 45px;
+    }
+    75% {
+        height: 25px;
+    }
+    100% {
+        height: 0px;
+    }
 }
 
 #header {
@@ -76,15 +94,30 @@
     height: 175px;
 }
 
+header h1 {
+    position: relative;
+}
+
+header h1::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 125%;
+    height: 0px;
+    background-color: wheat;
+    animation: identifierTitulo .5s 1 ease-in-out;
+}
+
 #aside {
-    width: 35vw;
+    width: 25%;
     height: 100vh;
     background-color: darkgray;
     padding: 15px;
     z-index: 2;
     position: fixed;
     top: 0;
-    left: 0; /*ALTERAR* -30vw
+    left: 0; /*ALTERAR* -25vw
     opacity: 1; /*alterar*/ 
 }
 
@@ -115,6 +148,78 @@
     font-size: 1em;
     text-decoration: none;
     padding: 15px;
+}
+
+a#aKokushibo {
+    background-image: linear-gradient(45deg, var(--cor-kokushibo--2) 50%, var(--cor-kokushibo--1));
+}
+
+#aDoma {
+    background-image: linear-gradient(45deg, var(--cor-douma--2), var(--cor-douma--3) 50%, var(--cor-douma--4));
+}
+
+#aAkaza {
+    background-image: linear-gradient(45deg, var(--cor-akaza--1), var(--cor-akaza--3));
+}
+
+#aHantengu {
+    background-image: linear-gradient(45deg, var(--cor-hantengu--1), var(--cor-hantengu--4));
+}
+
+#aGyokko {
+    background-image: linear-gradient(45deg, var(--cor-gyokko--1) 50%, var(--cor-gyokko--2));
+}
+
+#aGyutaro {
+    background-image: linear-gradient(45deg, var(--cor-gyutaro--1), var(--cor-gyutaro--2));
+}
+
+#aKokushibo:hover {
+    color: black;
+}
+
+#aDoma:hover {
+    color: black;
+}
+
+#aAkaza:hover {
+    color: black;
+}
+
+#aHantengu:hover {
+    color: black;
+}   
+
+#aGyokko:hover {
+    color: black;
+}
+
+#aGyutaro:hover {
+    color: black;
+}
+
+
+
+
+
+
+
+#secMain {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    background: black url(imagens/Infinitefortres.gif) no-repeat;
+    background-size: cover;
+    color: wheat;
+    width: 100%;
+    height: 600px;
+}
+
+#secMain h2 {
+    padding: 15px;
+    width: 50%;
+    background-color: black;
+    text-align: center;
 }
 
 
