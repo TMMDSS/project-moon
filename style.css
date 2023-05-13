@@ -22,6 +22,50 @@
 
 }
 
+@keyframes identifierTitulo {
+    0% {
+        height: 0px;
+    }
+    25% {
+        height: 25px;
+    }
+    50% {
+        height: 45px;
+    }
+    75% {
+        height: 25px;
+    }
+    100% {
+        height: 0px;
+    }
+}
+
+@keyframes mudança {
+    0% {
+        border-radius: 0px 0px 0px 0px;
+    }
+
+    25% {
+        border-radius: 15px 5px 25px 15px;
+        font-family: var(--fonte--1);
+    }
+
+    50% {
+        border-radius: 20px 10px 35px 20px;
+
+
+    }
+
+    75% {
+        border-radius: 10px 5px 25px 12px;
+        font-family: var(--fonte--3);
+    }
+
+    100% {
+        border-radius: 0px 0px 0px 0px;
+    }
+}
+
 :root {
     --cor-kokushibo--1: #150B05;
     --cor-kokushibo--2: #9E1931;
@@ -61,22 +105,8 @@
 
 }
 
-@keyframes identifierTitulo {
-    0% {
-        height: 0px;
-    }
-    25% {
-        height: 25px;
-    }
-    50% {
-        height: 45px;
-    }
-    75% {
-        height: 25px;
-    }
-    100% {
-        height: 0px;
-    }
+body {
+    background-color: black;
 }
 
 #header {
@@ -175,27 +205,33 @@ a#aKokushibo {
 }
 
 #aKokushibo:hover {
-    color: black;
+    animation: mudança .5s 1;
+    border-radius: 10px;
 }
 
 #aDoma:hover {
-    color: black;
+animation: mudança .5s 1;
+border-radius: 10px;
 }
 
 #aAkaza:hover {
-    color: black;
+animation: mudança .5s 1;
+border-radius: 10px;
 }
 
 #aHantengu:hover {
-    color: black;
+animation: mudança .5s 1;
+border-radius: 10px;
 }   
 
 #aGyokko:hover {
-    color: black;
+animation: mudança .5s 1;
+border-radius: 10px;
 }
 
 #aGyutaro:hover {
-    color: black;
+animation: mudança .5s 1;
+border-radius: 10px;
 }
 
 
