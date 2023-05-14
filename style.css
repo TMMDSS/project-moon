@@ -147,8 +147,9 @@ header h1::after {
     z-index: 2;
     position: fixed;
     top: 0;
-    left: 0; /*ALTERAR* -25vw
+    left: -25vw; /*ALTERAR* -25vw
     opacity: 1; /*alterar*/ 
+    transition: .1s;
 }
 
 #nav {
