@@ -100,7 +100,7 @@
     --cor-douma--4: #f52559;
 
     --cor-akaza--1: #5C6F7A;
-    --cor-akaza--2: #4E5F73;
+    --cor-akaza--2: #424f5f;
     --cor-akaza--3: #0F274D;
     --cor-akaza--4: #F9FAD6;
 
@@ -346,6 +346,48 @@ border-radius: 10px;
     animation: eyeDoma 4s infinite;
 }
 
+#secAkaza {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 850px;
+    padding: 15px;
+    background: linear-gradient(to bottom, var(--cor-akaza--2), var(--cor-akaza--3));
+}
+
+#div-akaza-lorem {
+    display: flex;
+    align-items: end;
+    color: var(--cor-akaza--4);
+    width: 500px;
+    height: 100%;
+    font-size: 1.2em;
+}
+
+#div-akaza-img {
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}
+
+.akaza-img-1 {
+    width: 100%;
+}
+
+.akaza-img-1 img {
+    width: 750px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.akaza-img-2 img {
+    width: 15%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
 
 
 
