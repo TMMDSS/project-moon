@@ -66,6 +66,28 @@
     }
 }
 
+@keyframes eyeDoma {
+    0% {
+       background: linear-gradient(45deg, var(--cor-douma--4), var(--cor-douma--1))
+    }
+
+    25% {
+        background: linear-gradient(220deg, var(--cor-douma--2), var(--cor-douma--3));
+    }
+
+    50% {
+        background: linear-gradient(45deg, var(--cor-douma--4), var(--cor-douma--1))
+    }
+
+    75% {
+        background: linear-gradient(220deg, var(--cor-douma--2), var(--cor-douma--3));
+    }
+
+    100% {
+        background: linear-gradient(45deg, var(--cor-douma--4), var(--cor-douma--1))
+    }
+}
+
 :root {
     --cor-kokushibo--1: #150B05;
     --cor-kokushibo--2: #9E1931;
@@ -281,6 +303,47 @@ border-radius: 10px;
     color: var(--cor-kokushibo--4);
     width: 500px;
     padding: 150px;
+}
+
+#secDoma { 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*background: linear-gradient(45deg, var(--cor-douma--1), var(--cor-douma--3) 70%, var(--cor-douma--4) 20%);*/
+    background: url(imagens/DOMA/Doma_29.webp) no-repeat;
+    background-size: cover;
+    padding: 0px 15px;
+    width: 100%;
+    height: 850px;
+}
+
+#div-doma-img {
+    width: 40%;
+    height: 100%;
+    position: relative;
+}
+
+#div-doma-img img {
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    width: 30%;
+}
+
+#div-doma-lorem {
+    color: var(--cor-douma--4);
+    width: 500px;
+    padding: 150px;
+}
+
+#secDoma--video--Space {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    width: 600px;
+    height: 325px;
+    animation: eyeDoma 4s infinite;
 }
 
 
