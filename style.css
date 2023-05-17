@@ -418,6 +418,32 @@ border-radius: 10px;
     height: 100%;
 }
 
+#secGyokko {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 850px;
+    background: var(--cor-hantengu--3) url(imagens/GYOKKO/1292068.jpg) no-repeat;
+    background-size: cover;
+    padding: 0px 15px;
+}
+
+.div-gyokko-lorem {
+    display: flex;
+    align-items: center;
+    color: var(--cor-gyokko--2);
+    width: 500px;
+    text-align: right;
+    height: 100%;
+}
+
+.div-gyokko-img {
+    display: flex;
+    align-items: end;
+    width: 500px;
+    height: 100%;
+}
 
 
 
