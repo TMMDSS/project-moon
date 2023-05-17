@@ -445,5 +445,32 @@ border-radius: 10px;
     height: 100%;
 }
 
+#secGyutaro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 850px;
+    padding: 0px 15px;
+    background: radial-gradient(circle at 200%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 57%, var(--cor-gyutaro--4) 60%, var(--cor-gyutaro--1) 95%);
+}
+
+.div-gyutaro-lorem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+    height: 100%;
+}
+
+.div-gyutaro-img {
+    display: flex;
+    justify-content: center;
+}
+
+.div-gyutaro-img img {
+    width: 40%;
+}
+
 
 
