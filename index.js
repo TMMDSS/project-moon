@@ -19,18 +19,36 @@ let btnHantengu = document.querySelector('#aHantengu')
 let btnGyokko = document.querySelector('#aGyokko')
 let btnGyutaro = document.querySelector('#aGyutaro')
 
-function ação() {
+let seckokushibo = document.querySelector('#secKokushibo')
+let secDoma = document.querySelector('#secDoma')
+let secAkaza = document.querySelector('#secAkaza')
+let secHantengu = document.querySelector('#secHantengu')
+let secGyokko = document.querySelector('#secGyokko')
+let secGyutaro = document.querySelector('#secGyutaro')
 
-    let showABA = !showABA
+let showABA = false;
+
+
+function ação() {
+    showABA = !showABA
 
     if (showABA) {
-        
+        seckokushibo.style.display = 'none'
+        secDoma.style.display = 'none'
+        secAkaza.style.display = 'none'
+        secHantengu.style.display = 'none'
+        secGyokko.style.display = 'none'
+        secGyutaro.style.display = 'none'
+        //seckokushibo.classList.add('noneVISE')
     } else {
-        
+        seckokushibo.style.display = 'flex'
+        secDoma.style.display = 'flex'
+        secAkaza.style.display = 'flex'
+        secHantengu.style.display = 'flex'
+        secGyokko.style.display = 'flex'
+        secGyutaro.style.display = 'flex'
+        //seckokushibo.classList.remove('noneVISE')
     }
-
-
-
 
 }
 btnKokushibo.addEventListener('click', ação)
