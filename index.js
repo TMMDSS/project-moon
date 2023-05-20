@@ -1,6 +1,8 @@
+///////////////////////////////////////JS DO MENU LATERAL
 const navPul = document.querySelector('#aside')
 const head = document.querySelector('#header')
 const main = document.querySelector('#main')
+const p = document.getElementsByTagName('p')[0]
 
 function enter() {
     navPul.style.left = '0'
@@ -11,6 +13,32 @@ function sair() {
 }
 
 navPul.addEventListener('mouseenter', enter)
+main.addEventListener('mouseenter', sair)
+
+///////////////////////////////////////JS DA BARRA FIXA
+
+window.onscroll = function() {scrollTop()};
+
+var sticky = header.offsetTop;
+
+function scrollTop() {
+
+  if (window.pageYOffset > sticky) {
+    head.classList.add("fIXA");
+    head.style.height = '75px'
+    main.style.marginTop = '75px'
+    head.removeChild(p);
+    head.style.transition = ".2s ease-in-out"
+
+  } else {
+    head.classList.remove("fIXA");
+    head.style.height = ''
+    main.style.marginTop = ''
+    head.appendChild(p);
+    head.style.transition = ".2s ease-in-out"
+  }
+
+}
 
 
 
@@ -26,9 +54,7 @@ navPul.addEventListener('mouseenter', enter)
 
 
 
-
-
-// AQUI COMEÇA A FUNÇÃO DE CLICK MENU 
+///////////////////////////////////////AQUI COMEÇA A FUNÇÃO DE SLIDE
 
 const btnKokushibo = document.querySelector('#aKokushibo')
 const btnDoma = document.querySelector('#aDoma')
