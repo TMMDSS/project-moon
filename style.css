@@ -335,7 +335,7 @@ border-radius: 10px;
 }
 
 #div-akaza-img img {
-    width: 650px;
+    width: 500px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(10px);
 }
@@ -483,9 +483,6 @@ border-radius: 10px;
 
     50% {
         color: var(--cor-douma--4);
-        transform: rotate(180deg);
-        background-color: rgb(176, 12, 182);
-        opacity:0;
     }
 
     75% {
