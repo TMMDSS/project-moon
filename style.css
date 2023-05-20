@@ -294,6 +294,7 @@ border-radius: 10px;
 #wrapper {
     display: flex;
     width: 600%;
+    height: auto;
 }
 
 #secKokushibo {
