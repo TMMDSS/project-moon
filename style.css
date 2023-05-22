@@ -373,8 +373,8 @@ border-radius: 10px;
     justify-content: space-between;
     width: 100%;
     height: 850px;
-    background: var(--cor-hantengu--3) url(imagens/GYOKKO/1292068.jpg) no-repeat;
-    background-size: cover;
+    background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-gyokko--2), transparent);
     padding: 0px 15px;
 }
 
@@ -395,19 +395,26 @@ border-radius: 10px;
 
 #secGyutaro {
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: space-around;
     width: 100%;
     height: 850px;
     padding: 0px 15px;
-    background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 10%, var(--cor-gyutaro--1) 26%);
-    animation: animaHeart 2s infinite;
+    background: url(imagens/GYUTARO/1268028.png);
+
+
+
+
+
+    /*background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 10%, var(--cor-gyutaro--1) 26%);
+    animation: animaHeart 2s infinite;*/
 }
 
 .div-gyutaro-lorem {
     display: flex;
     align-items: center;
     text-align: center;
+    color: var(--cor-gyutaro--1);
     width: 500px;
     height: 100%;
 }
