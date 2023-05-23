@@ -67,6 +67,7 @@
 
 body {
     background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #header {
@@ -313,11 +314,16 @@ border-radius: 10px;
 
 #div-doma-lorem {
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     color: var(--cor-douma--4);
-    width: 500px;
+    width: 800px;
     height: 100%;
-    font-size: 1.3em;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 7px;
+    margin-bottom: 100px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     animation: eyeDoma 2s ease-in infinite;
 }
 
@@ -502,7 +508,7 @@ border-radius: 10px;
     }
 
     50% {
-        color: var(--cor-douma--4);
+        color: orange;
     }
 
     75% {
