@@ -462,13 +462,6 @@ border-radius: 10px;
     padding: 0px 15px;
     background: url(imagens/GYUTARO/1268028.png) no-repeat;
     background-size: cover;
-
-
-
-
-
-    /*background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 10%, var(--cor-gyutaro--1) 26%);
-    animation: animaHeart 2s infinite;*/
 }
 #transparentGyutaro {
     width: 100%;
