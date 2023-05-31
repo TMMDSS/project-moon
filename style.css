@@ -459,7 +459,6 @@ border-radius: 10px;
     justify-content: space-around;
     width: 100vw;
     height: 850px;
-    padding: 0px 15px;
     background: url(imagens/GYUTARO/1268028.png) no-repeat;
     background-size: cover;
 }
@@ -479,6 +478,7 @@ border-radius: 10px;
     color: var(--cor-gyutaro--1);
     width: 500px;
     height: 100%;
+    margin-left: 35px;
     font-size: 25px;
     line-height: 35px;
     letter-spacing: 5px;
