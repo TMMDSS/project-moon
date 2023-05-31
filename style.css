@@ -490,17 +490,6 @@ border-radius: 10px;
     color: black;
 }
 
-#div-gyutaro-img {
-    display: flex;
-    align-items: center;
-    width: 500px;
-    height: 100%;
-}
-
-#div-gyutaro-img img {
-    width: 100%;
-}
-
 
 
 
