@@ -239,13 +239,14 @@ border-radius: 10px;
 #mainWrapper {
     width: 100%;
     margin: 0 auto;
-    /*overflow: hidden;*/
+    overflow: hidden;
 }
 
 #wrapper {
     display: flex;
-    width: 600%;
+    width: 606%;
     height: auto;
+    margin-left: -100vw;
 }
 
 #secKokushibo {
