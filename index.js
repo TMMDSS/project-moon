@@ -23,7 +23,7 @@ var sticky = header.offsetTop;
 
 function scrollTop() {
 
-  if (window.pageYOffset > sticky) {
+  if (window.scrollY > sticky) {
     head.classList.add("fIXA");
     head.style.height = '75px'
     main.style.marginTop = '75px'
