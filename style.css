@@ -246,7 +246,7 @@ border-radius: 10px;
     display: flex;
     width: 606%;
     height: auto;
-    margin-left: -100vw;
+    margin-left: 0vw;
 }
 
 #secKokushibo {

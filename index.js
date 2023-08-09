@@ -56,12 +56,63 @@ function scrollTop() {
 
 ///////////////////////////////////////AQUI COMEÇA A FUNÇÃO DE SLIDE
 
+const wrapper = document.querySelector('#wrapper#wrapper')
 const btnKokushibo = document.querySelector('#aKokushibo')
 const btnDoma = document.querySelector('#aDoma')
 const btnAkaza = document.querySelector('#aAkaza')
 const btnHantengu = document.querySelector('#aHantengu')
 const btnGyokko = document.querySelector('#aGyokko')
 const btnGyutaro = document.querySelector('#aGyutaro')
+
+btnKokushibo.addEventListener('click', () => {
+  wrapper.style.marginLeft = "0vw"
+  head.style.transition = ".2s ease-in-out"
+})
+
+btnDoma.addEventListener('click', () => {
+  wrapper.style.marginLeft = "-100vw"
+})
+
+btnAkaza.addEventListener('click', () => {
+  wrapper.style.marginLeft = "-200vw"
+})
+
+btnHantengu.addEventListener('click', () => {
+  wrapper.style.marginLeft = "-300vw"
+})
+
+
+btnGyokko.addEventListener('click', () => {
+  wrapper.style.marginLeft = "-400vw"
+
+})
+
+btnGyutaro.addEventListener('click', () => {
+  wrapper.style.marginLeft = "-500vw"
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const btnKokushibo = document.querySelector('#aKokushibo')
+// const btnDoma = document.querySelector('#aDoma')
+// const btnAkaza = document.querySelector('#aAkaza')
+// const btnHantengu = document.querySelector('#aHantengu')
+// const btnGyokko = document.querySelector('#aGyokko')
+// const btnGyutaro = document.querySelector('#aGyutaro')
 
 const seckokushibo = document.querySelector('#secKokushibo')
 const secDoma = document.querySelector('#secDoma')
@@ -73,9 +124,9 @@ const secGyutaro = document.querySelector('#secGyutaro')
 let showABA = false;
 
 
-btnKokushibo.addEventListener('click', transatation)
-btnDoma.addEventListener('click', transatation)
-btnAkaza.addEventListener('click', transatation)
-btnHantengu.addEventListener('click', transatation)
-btnGyokko.addEventListener('click', transatation)
-btnGyutaro.addEventListener('click', transatation)
+// btnKokushibo.addEventListener('click', transatation)
+// btnDoma.addEventListener('click', transatation)
+// btnAkaza.addEventListener('click', transatation)
+// btnHantengu.addEventListener('click', transatation)
+// btnGyokko.addEventListener('click', transatation)
+// btnGyutaro.addEventListener('click', transatation)
