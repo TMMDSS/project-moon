@@ -252,6 +252,12 @@ border-radius: 10px;
     margin-left: 0vw;
 }
 
+.informations {
+    background: var(--cor-black);
+    width: 100%;
+    height: 600px;
+}
+
 #secKokushibo {
     width: 100vw;
 
@@ -268,9 +274,7 @@ border-radius: 10px;
 }
 
 #kokushibo-info {
-    width: 100%;
-    height: 600px;
-    background-color: var(--cor-black);
+
 }
 
 #div-koku-img {
@@ -303,28 +307,23 @@ border-radius: 10px;
     color: black;
 }
 
-#secDoma { 
+#secDoma {
+    width: 100vw;
+
+}
+
+#secDoma2 { 
     display: flex;
     justify-content: space-around;
     /*background: linear-gradient(45deg, var(--cor-douma--1), var(--cor-douma--3) 70%, var(--cor-douma--4) 20%);*/
     background: url(imagens/DOMA/Doma_29.webp) no-repeat;
     background-size: cover;
     padding: 0px 45px;
-    width: 100vw;
+    width: 100%;
     height: 850px;
 }
 
-#div-doma-img {
-    width: 500px;
-    height: 100%;
-    position: relative;
-}
-
-#div-doma-img img {
-    position: absolute;
-    right: 120px;
-    bottom: 0px;
-    width: 150px;
+#doma-info {
 }
 
 #div-doma-lorem {
@@ -348,14 +347,23 @@ border-radius: 10px;
 }
 
 #secAkaza {
+    width: 100vw;
+
+}
+
+#secAkaza2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     height: 850px;
     padding: 0px 15px;
     background: linear-gradient(to bottom, var(--cor-akaza--2), var(--cor-akaza--3));
     position: relative;
+}
+
+#akaza-info {
+
 }
 
 #div-akaza-lorem {
@@ -390,14 +398,22 @@ border-radius: 10px;
 }
 
 #secHantengu {
+    width: 100vw;
+}
+
+#secHantengu2 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     height: 850px;
     background: var(--cor-hantengu--3) url(imagens/HANTENGU/334236003_200363299247458_7802008306760493539_n.png) no-repeat;
     background-size: cover;
     padding: 0px 15px;
+}
+
+#hantengu-info {
+
 }
 
 #div-hantengu-lorem {
@@ -424,14 +440,23 @@ border-radius: 10px;
 }
 
 #secGyokko {
+    width: 100vw;
+
+}
+
+#secGyokko2 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 100vw;
+    width: 100%;
     height: 850px;
     background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
     radial-gradient(ellipse at bottom, var(--cor-gyokko--2), transparent);
     padding: 0px 15px;
+}
+
+#gyokko-info {
+
 }
 
 #div-gyokko-lorem {
@@ -461,10 +486,15 @@ border-radius: 10px;
 }
 
 #secGyutaro {
+    width: 100vw;
+
+}
+
+#secGyutaro2 {
     display: flex;
     align-items: start;
     justify-content: space-around;
-    width: 100vw;
+    width: 100%;
     height: 850px;
     background: url(imagens/GYUTARO/1268028.png) no-repeat;
     background-size: cover;
@@ -474,6 +504,10 @@ border-radius: 10px;
     height: 100%; 
     background: transparent;
     backdrop-filter: blur(5px);
+}
+
+#gyutaro-info {
+
 }
 
 #div-gyutaro-lorem {
