@@ -250,6 +250,7 @@ border-radius: 10px;
     width: 606%;
     height: auto;
     margin-left: 0vw;
+    transition: .5s;
 }
 
 .informations {
@@ -600,25 +601,3 @@ border-radius: 10px;
         color: var(--cor-douma--1);
     }
 }
-
-    @keyframes animaHeart {
-        0% {
-            background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 10%, var(--cor-gyutaro--1) 26%);
-        }
-
-        25% {
-            background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 13%, var(--cor-gyutaro--1) 26%);
-        }
-        
-        50% {
-            background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 15%, var(--cor-gyutaro--1) 26%);
-        }
-
-        75% {
-            background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 18%, var(--cor-gyutaro--1) 26%);
-        }
-
-        100% {
-            background: radial-gradient(circle at 75%, var(--cor-gyutaro--1), var(--cor-gyutaro--2) 10%, var(--cor-gyutaro--4) 20%, var(--cor-gyutaro--1) 26%);
-        }
-    }
