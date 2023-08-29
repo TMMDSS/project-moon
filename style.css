@@ -27,7 +27,10 @@
 }
 
 :root {
-    --cor-black: #1A1313;
+    --cor-bgHeader: #0C0C0F;
+    --cor-bgMain: #1F1F29;
+    --cor-bgListaOptions: #101014;
+    --cor-bgSelectLista: #13131A;
 
 
     --cor-kokushibo--1: #150B05;
@@ -68,3 +71,103 @@
 
 }
 
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--cor-bgHeader);
+    width: 100%;
+    height: 100px;
+    padding: 0px 15px;
+}
+
+#logoRace {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 350px;
+    height: 100%;
+}
+#logo {
+    display: grid;
+    place-items: center;
+    width: 30%;
+    height: 100%;
+}
+#logo img {
+    width: 92px;
+    cursor: pointer;
+}
+
+
+#race {
+    display: grid;
+    place-items: center;
+    width: 30%;
+    height: 100%;
+
+}
+#race img {
+    width: 64px;
+    border-radius: 5px;
+}
+
+#race img:hover {
+    animation: selectionRace ease-in-out .5s;
+    cursor: pointer;
+}
+
+#search {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    width: 275px;
+    height: 70%;
+}
+#search input {
+    width: 220px;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 12px;
+    background: var(--cor-bgListaOptions);
+    color: darkgray;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: 0;
+}
+.fa-magnifying-glass {
+    color: white;
+    width: 18px;
+    height: 18px;
+
+}
+
+
+
+#main {
+    width: 100%;
+    height: 1220px;
+    margin: auto;
+    background: var(--cor-bgMain);
+}
+
+
+
+
+
+@keyframes selectionRace{
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+        box-shadow: 0 0 10px white;
+        border-radius: 30%;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
