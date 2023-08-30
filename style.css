@@ -86,8 +86,9 @@
 #logoRace {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 350px;
+    padding: 0px 25px 0 0;
     height: 100%;
 }
 #logo {
@@ -105,17 +106,18 @@
 #race {
     display: grid;
     place-items: center;
+    border-right: 1px solid rgba(128, 128, 128, 0.315);
     width: 30%;
     height: 100%;
 
 }
 #race img {
-    width: 64px;
+    width: 58px;
     border-radius: 5px;
 }
 
 #race img:hover {
-    animation: selectionRace ease-in-out .5s;
+    animation: selectionRace ease-in-out infinite 1s;
     cursor: pointer;
 }
 
@@ -159,14 +161,14 @@
     align-items: center;
     justify-content: space-between;
     width: 95%;
-    padding-top: 75px;
+    padding: 25px 50px 0px 85px;
     margin: auto;
     height: auto;
     border-bottom: 1px solid gray;
 }
 
 #explanationImg {
-    width: 700px;
+    width: 500px;
 }
 
 #explanationImg img {
@@ -192,10 +194,18 @@
         transform: scale(1);
     }
 
+    25% {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px red;
+    }
+
     50% {
-        transform: scale(1.2);
-        box-shadow: 0 0 10px white;
-        border-radius: 30%;
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px red;
     }
 
     100% {
