@@ -128,23 +128,26 @@
     padding: 15px;
     width: 275px;
     height: 70%;
+    position: relative;
 }
 #search input {
     width: 220px;
     height: 40px;
     font-size: 18px;
-    padding-left: 12px;
+    padding-left: 30px;
     background: var(--cor-bgListaOptions);
     color: darkgray;
-    border: 1px solid white;
+    border: 1px solid darkgray;
     border-radius: 5px;
     outline: 0;
 }
 .fa-magnifying-glass {
-    color: white;
+    color: darkgray;
     width: 18px;
     height: 18px;
-
+    position: absolute;
+    top: 28px;
+    left: 50px;
 }
 
 
