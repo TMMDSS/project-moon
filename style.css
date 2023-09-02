@@ -209,11 +209,16 @@
 .moon {
     width: 220px;
     height: 350px;
-    background: #252730;
+    background: #262831;
     overflow: hidden;
-    cursor: pointer;
     position: relative;
-    border: 1px solid wheat;
+    box-shadow: 5px 5px 10px #0000005d;
+    transition: .5s;
+}
+.moon:hover {
+    border-top: 1px solid wheat;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px black;
 }
 
 .moonDivContent {
@@ -227,6 +232,14 @@
     color: wheat;
     padding: 15px;
     transition: .5s;
+    visibility: hidden;
+    margin-bottom: -100%;
+}
+.moon:hover  .moonDivContent {
+    visibility: visible;
+    cursor: pointer;
+    margin-bottom: 0;
+    border: 0px 1px 1px 1px solid wheat;
 }
 
 .moonKokushibo {
@@ -249,6 +262,25 @@
     background-size: cover;
 }
 
+.moonGyokko {
+    background: url(imagens/NEW/Upper_Five-Gyokko.webp) center;
+    background-size: cover;
+}
+
+.moonGyutaro {
+    background: url(imagens/NEW/gyutaro-demon-slayer.webp) center;
+    background-size: cover;
+}
+
+.moonDaki {
+    background: #FF5794 url(imagens/NEW/Daki-821x1024.webp) center;
+    background-size: cover;
+}
+
+.moonKaigaku {
+    background: url(imagens/NEW/Upper_six_Kaigaku.jpg) center;
+    background-size: cover;
+}
 
 @keyframes selectionRace{
     0% {
