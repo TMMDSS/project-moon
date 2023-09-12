@@ -97,6 +97,105 @@
     }
 }
 
+@keyframes modal {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-60px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+
+.modalContainer {
+    width: 100vw;
+    position: fixed;
+    top: 40px;
+    display: none;
+    z-index: 999;
+    justify-content: center;
+}
+
+
+.modalError {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    left: 25%;
+    background: rgba(0, 0, 0, 0.800);
+    border-radius: 40px;
+    width: 60%;
+    height: 540px;
+}
+
+.modalCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    height: 90%;
+    background-color: rgb(41, 40, 40);
+    color: white;
+    border: 2px solid darkgray;
+    border-radius: 20px;
+    position: relative;
+}
+
+.modalActive {
+    display: flex;
+}
+.modalActive .modalError {
+    animation: modal .4s;
+}
+
+ .modalCenter h1 {
+    background-color: #acac14;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.300);
+    transform: rotate(-15deg);
+    margin-bottom: 25px;
+    font-size: 44px;
+    color: black;
+    padding: 25px;
+}
+
+.modalError .modalCenter h2 {
+    background-color: gray;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.300);
+    transform: rotate(15deg);
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: white;
+    padding: 25px;
+}
+
+.modalError .modalCenter p {
+    font-size: 24px;
+}
+
+.modalError .modalCenter img {
+    position: absolute;
+    bottom: 5px;
+    right: -210px;
+}
+
+.modalError .modalCenter input[type = 'button'] {
+    background-color: #acac14;
+    padding: 15px;
+    margin-top: 25px;
+    cursor: pointer;
+    transition: .1s;
+}
+.modalError .modalCenter input[type = 'button']:hover {
+    background-color: gray;
+    color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.300);
+    transform: scale(1.2);
+}
+
+
+
 #header {
     display: flex;
     align-items: center;
