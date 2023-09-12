@@ -137,8 +137,8 @@
     padding-left: 30px;
     background: var(--cor-bgListaOptions);
     color: darkgray;
-    border: 1px solid darkgray;
-    border-radius: 5px;
+    border: 2px solid darkgray;
+    border-radius: 10px;
     outline: 0;
 }
 .fa-magnifying-glass {
@@ -219,6 +219,7 @@
     border-top: 1px solid wheat;
     cursor: pointer;
     box-shadow: 5px 5px 10px black;
+    transform: scale(1.05);
 }
 
 .moonDivContent {
