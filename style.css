@@ -229,9 +229,11 @@
     position: relative;
     box-shadow: 5px 5px 10px #0000005d;
     transition: .5s;
+    border: 2px solid black;
+    border-radius: 10px;
 }
 .moon:hover {
-    border-top: 1px solid wheat;
+    border-top: 5px solid wheat;
     cursor: pointer;
     box-shadow: 5px 5px 10px black;
     transform: scale(1.05);
