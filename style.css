@@ -73,6 +73,30 @@
 
 }
 
+@keyframes selectionRace{
+    0% {
+        transform: scale(1);
+    }
+
+    25% {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px red;
+    }
+
+    50% {
+        transform: scale(1);
+    }
+
+    75% {
+        transform: scale(1.1);
+        box-shadow: 0 0 10px red;
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 #header {
     display: flex;
     align-items: center;
@@ -300,26 +324,54 @@
     background-size: cover;
 }
 
-@keyframes selectionRace{
-    0% {
-        transform: scale(1);
-    }
 
-    25% {
-        transform: scale(1.1);
-        box-shadow: 0 0 10px red;
-    }
+#footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background: var(--cor-bgHeader);
+    width: 100%;
+    height: 360px;
+}
 
-    50% {
-        transform: scale(1);
-    }
+#footer h3 {
+    color: darkgray;
+    border-bottom: 2px solid gray;
+}
 
-    75% {
-        transform: scale(1.1);
-        box-shadow: 0 0 10px red;
-    }
+#footerGuias {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    background-color: transparent;
+    margin: 10% 0% 10% 25%;
+    border-right: 1px solid gray;
+}
 
-    100% {
-        transform: scale(1);
-    }
+#footerGuiaDemon {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#footerGuiaHashira {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+
+
+.footerLinkA {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.footerLinkA:hover {
+    color: gray;
+    text-decoration: underline;
+}
+
+
+#footerSocial {
+    background-color: transparent;
+    margin: 10% 25% 10% 0%;
 }
