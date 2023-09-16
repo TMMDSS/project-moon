@@ -34,6 +34,7 @@
     --cor-bgMain: #1F1F29;
     --cor-bgListaOptions: #101014;
     --cor-bgSelectLista: #13131A;
+    --cor-bgFooter: #131314;
 
 
     --cor-kokushibo--1: #150B05;
@@ -385,54 +386,54 @@
 }
 
 .moonKokushibo {
-    background: url(imagens/NEW/Upper_One-kokushibo.jpg) center ;
+    background: url(../imagens/NEW/Upper_One-kokushibo.jpg) center ;
     background-size: cover;
 }
 
 .moonDoma {
-    background: url(imagens/NEW/Upper_Six_Doma_29.webp) center; 
+    background: url(../imagens/NEW/Upper_Six_Doma_29.webp) center; 
     background-size: cover;
 }
 
 .moonAkaza {
-    background: url(imagens/NEW/Upper_Six_Akaza.jpg) center;
+    background: url(../imagens/NEW/Upper_Six_Akaza.jpg) center;
     background-size: cover;
 }
 
 .moonHantengu {
-    background: url(imagens/NEW/Upper_Four_Hantengu.jpg) center;
+    background: url(../imagens/NEW/Upper_Four_Hantengu.jpg) center;
     background-size: cover;
 }
 
 .moonGyokko {
-    background: url(imagens/NEW/Upper_Five-Gyokko.webp) center;
+    background: url(../imagens/NEW/Upper_Five-Gyokko.webp) center;
     background-size: cover;
 }
 
 .moonGyutaro {
-    background: url(imagens/NEW/gyutaro-demon-slayer.webp) center;
+    background: url(../imagens/NEW/gyutaro-demon-slayer.webp) center;
     background-size: cover;
 }
 
 .moonDaki {
-    background: #FF5794 url(imagens/NEW/Daki-821x1024.webp) center;
+    background: #FF5794 url(../imagens/NEW/Daki-821x1024.webp) center;
     background-size: cover;
 }
 
 .moonKaigaku {
-    background: url(imagens/NEW/Upper_six_Kaigaku.jpg) center;
+    background: url(../imagens/NEW/Upper_six_Kaigaku.jpg) center;
     background-size: cover;
 }
 
 
 #footer {
-    background: var(--cor-bgHeader);
+    background: var(--cor-bgFooter);
     width: 100%;
 }
 
 #footerWrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr .5fr ;
     width: 80%;
     margin: auto;
     padding: 50px 25px;
@@ -445,6 +446,7 @@
 
 #footerGuias {
     display: flex;
+    justify-content: center;
     gap: 65px;
     margin-right: 25px;
     border-right: 1px solid rgba(128, 128, 128, 0.425);
@@ -472,7 +474,6 @@
 #resources {
     display: flex;
     flex-direction: column;
-    width: 200px;
     margin-left: 15px;
 }
 
@@ -484,7 +485,6 @@
 #footerSocial {
     display: flex;
     flex-direction: column;
-    width: 200px;
     color: gray;
 }
 
@@ -495,61 +495,12 @@
 }
 
 #footerSocialIcon .fa-brands {
-    font-size: 38px;
+    font-size: 35px;
     color: gray;
 }
 #footerSocialIcon .fa-brands:hover {
     color: #646464;
 }
 
-@media screen and (max-width: 600px) {
-    #footerWrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 80%;
-        margin: auto;
-        padding: 50px 25px;
-    }
 
-    #footerSocial {
-        margin-top: 25px;
-    }
 
-    #footerSocial > h3, p {
-        display: none;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    #footerWrapper {
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        justify-items: center;
-        width: 80%;
-        margin: auto;
-        padding: 50px 25px;
-    }
-    
-    #footerGuias {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        border-right: none;
-        margin-right: 0;
-    }
-
-    #resources {
-        margin-top: 25px;
-        text-align: center;
-        margin-left: 0;
-    }
-
-    #footerSocial {
-        margin-top: 25px;
-        text-align: center;
-    }
-
-    #footerSocial > h3, p {
-        display: none;
-    }
-}
