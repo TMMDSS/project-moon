@@ -26,6 +26,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 :root {
@@ -425,52 +426,130 @@
 
 
 #footer {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
     background: var(--cor-bgHeader);
     width: 100%;
-    height: 360px;
+}
+
+#footerWrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: auto;
+    padding: 50px 25px;
 }
 
 #footer h3 {
     color: darkgray;
-    border-bottom: 2px solid gray;
+    font-size: 24px;
 }
 
 #footerGuias {
     display: flex;
-    justify-content: center;
-    gap: 150px;
-    background-color: transparent;
-    margin: 10% 0% 10% 25%;
-    border-right: 1px solid gray;
+    gap: 65px;
+    margin-right: 25px;
+    border-right: 1px solid rgba(128, 128, 128, 0.425);
 }
 
 #footerGuiaDemon {
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
 #footerGuiaHashira {
     display: flex;
     flex-direction: column;
-    gap: 5px; 
 }
-
 
 .footerLinkA {
-    color: darkgray;
+    color: gray;
     text-decoration: none;
 }
-
 .footerLinkA:hover {
-    color: gray;
+    color: #646464;
     text-decoration: underline;
 }
 
+#resources {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 15px;
+}
+
+#resources a {
+    color: gray;
+    text-decoration: none;
+}
 
 #footerSocial {
-    background-color: transparent;
-    margin: 10% 25% 10% 0%;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    color: gray;
+}
+
+#footerSocialIcon {
+    display: flex;
+    gap: 10px;
+    margin-top: 25px;
+}
+
+#footerSocialIcon .fa-brands {
+    font-size: 38px;
+    color: gray;
+}
+#footerSocialIcon .fa-brands:hover {
+    color: #646464;
+}
+
+@media screen and (max-width: 600px) {
+    #footerWrapper {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 80%;
+        margin: auto;
+        padding: 50px 25px;
+    }
+
+    #footerSocial {
+        margin-top: 25px;
+    }
+
+    #footerSocial > h3, p {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #footerWrapper {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+        width: 80%;
+        margin: auto;
+        padding: 50px 25px;
+    }
+    
+    #footerGuias {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-right: none;
+        margin-right: 0;
+    }
+
+    #resources {
+        margin-top: 25px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    #footerSocial {
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    #footerSocial > h3, p {
+        display: none;
+    }
 }
