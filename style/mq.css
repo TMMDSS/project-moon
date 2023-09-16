@@ -10,7 +10,6 @@
     .moon {
         width: 220px;
         height: 350px;
-        background: #262831;
         overflow: hidden;
         position: relative;
         box-shadow: 5px 5px 10px #0000005d;
@@ -104,17 +103,41 @@
     }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 425px) {
     /* HEADER */
+    #logoRace {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 65%;
+        padding: 0px 25px 0 0;
+        height: 100%;
+    }
+
+    #search {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 35%;
+        height: 70%;
+    }
+
+    #search input {
+        width: 100%;
+    }
+    .fa-magnifying-glass {
+        left: 25px;
+    }
+    
+    /* MAIN */
     #moonGridDemon {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         width: 80%;
         margin: auto;
     }
-
-    /* MAIN */
-
+    
 
     #footerWrapper {
         display: grid;
