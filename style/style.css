@@ -212,6 +212,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    max-width: 1200px;
     margin: auto;
     height: 100%;
 }
@@ -318,6 +319,7 @@
     align-items: center;
     justify-content: space-between;
     width: 90%;
+    max-width: 1200px;
     padding: 25px 50px 0px 85px;
     margin: auto;
     height: auto;
@@ -444,6 +446,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr .5fr ;
     width: 80%;
+    max-width: 1200px;
     margin: auto;
     padding: 50px 25px;
 }
