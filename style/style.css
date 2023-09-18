@@ -512,5 +512,15 @@
     color: #646464;
 }
 
-
-
+#secCredit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    background-color: #222222;
+    color: gray;
+}
+#secCredit a {
+    text-decoration: none;
+    color: gray;
+}

@@ -67,7 +67,6 @@
 
     #footerSocial {
         margin-top: 25px;
-        width: 50%;
     }
     
     #footerSocial >  h3,  p {
@@ -118,7 +117,6 @@
 
     #footerSocial {
         margin-top: 25px;
-        width: 50%;
     }
 
     #footerSocial > h3, p {
@@ -210,6 +208,7 @@
         text-align: center;
         border-right: none;
         margin-right: 0;
+        padding-right: 0;
     }
 
     #resources {
@@ -221,7 +220,6 @@
     #footerSocial {
         margin-top: 25px;
         text-align: center;
-        width: 50%;
     }
     
     #footerSocial > h3, p {
