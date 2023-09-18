@@ -73,7 +73,7 @@
 
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     /* HEADER */
 
 
@@ -82,9 +82,27 @@
         display: none;
     }
 
+    #moonGridDemon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    .moon {
+        width: 220px;
+        height: 350px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 5px 5px 10px #0000005d;
+        transition: .5s;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
 
 
 
+    /* FOOTER */
     #footerWrapper {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -133,12 +151,24 @@
     /* MAIN */
     #moonGridDemon {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
-        width: 80%;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
         margin: auto;
     }
-    
 
+    .moon {
+        width: 180px;
+        height: 286px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 5px 5px 10px #0000005d;
+        transition: .5s;
+        border: 2px solid black;
+        border-radius: 10px;
+    }
+
+
+    /* FOOTER */
     #footerWrapper {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
@@ -174,5 +204,28 @@
     
     #footerSocialIcon {
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    /* HEADER */
+
+    /* MAIN */
+    #moonGridDemon {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+    
+    .moon {
+        width: 120px;
+        height: 190px;
+        overflow: hidden;
+        position: relative;
+        box-shadow: 5px 5px 10px #0000005d;
+        transition: .5s;
+        border: 2px solid black;
+        border-radius: 10px;
     }
 }
