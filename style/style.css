@@ -193,9 +193,28 @@
 }
 
 #searchContent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     height: 40px;
-    background-color: red;
+    background: var(--cor-bgListaOptions);
+}
+
+.divOptionSelection {
+    background-color: var(--cor-bgListaOptions);
+    width: 100%;
+    padding: 20px;
+}
+.divOptionSelection:hover {
+    background-color: var(--cor-bgSelectLista);
+}
+
+
+.divOptionSelection a {
+    width: 100%;
+    color: white;
+    text-decoration: none;
 }
 
 
