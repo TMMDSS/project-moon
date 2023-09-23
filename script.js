@@ -17,16 +17,22 @@ let items = guiasOni;
 inputSearch.oninput = () => {
     content.innerHTML = ""
     
-    items
-    .filter((item) => 
+    items.filter((item) => 
         item.name.toLowerCase().includes(inputSearch.value.toLowerCase())
     )
     .forEach((item) => addHTML(item))
 }
 
+
 function addHTML(item) {
-    const div = document.createElement(("div"));
-    div.className = "divOptionSelection";
-    div.innerHTML = `<a href="${item.file}" target="_blank">${item.name}</a>`;
-    content.append(div);
+    const a = document.createElement(("a"));
+    a.className = 'OptionSelection';
+    a.target = '_black'
+    a.href = `${item.file}`;
+    a.textContent  = `${item.name}`;
+    content.append(a);
+    
+    if (inputSearch.value == "") {
+        content.innerHTML = ""
+    }
 }

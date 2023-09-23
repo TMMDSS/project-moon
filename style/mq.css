@@ -33,14 +33,6 @@
         height: 70%;
     }
 
-    #search input {
-        width: 100%;
-    }
-    .fa-magnifying-glass {
-        left: 25px;
-    }
-
-
     /* MAIN */
     #moonGridDemon {
         display: grid;
