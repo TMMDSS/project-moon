@@ -64,6 +64,31 @@
     /* HEADER */
 
 
+    #search {
+        margin-left: 0;
+        position: relative;
+    }
+    #searchInput input {
+        display: block;
+        position: absolute;
+        top: 75px;
+        margin-left: -200vw;
+        transition: 1s;
+    }
+    .fa-magnifying-glass {
+        position: static;
+        font-size: 20px;
+    }
+
+    #searchContent {
+        top: 126px;
+    }
+
+    #race {
+        order: 1;
+    }
+
+
     /* MAIN */
     #mainExplanation {
         display: none;
@@ -85,6 +110,7 @@
         transition: .5s;
         border: 2px solid black;
         border-radius: 10px;
+        margin-top: 30px;
     }
 
 

@@ -36,3 +36,26 @@ function addHTML(item) {
         content.innerHTML = ""
     }
 }
+
+// ESPAÇO
+const label = document.querySelector(".fa-magnifying-glass")
+const searchInput = document.querySelector("#iSearch")
+let show = true
+
+label.addEventListener("click", btnPesquisaMq = () => {
+
+    const pedro = () => {
+        show = !show
+   
+        if (show) {
+            searchInput.style.marginLeft = "-200vw"
+            label.style.color = ""
+
+        } else {
+            searchInput.style.marginLeft = "0"
+            label.style.color = "red"
+        }
+    }
+    pedro()
+    
+})
