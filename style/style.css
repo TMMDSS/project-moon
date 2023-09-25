@@ -1,5 +1,4 @@
 @charset 'utf-8';
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,400;10..48,600&display=swap');
 
 @font-face {
     font-family: pacita;
@@ -262,7 +261,11 @@
 
 #personagens {
     display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 20%;
     max-width: 100%;
+    overflow: hidden;
 }
 
 #moonGridDemon {
@@ -275,6 +278,7 @@
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
+    margin-left: 80%;
 }
 
 #moonGridSlayer {
@@ -287,7 +291,9 @@
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
-    margin-left: -100%;
+    margin-right: 0;
+    transition: .5s;
+
 }
 
 .moon {

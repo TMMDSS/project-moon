@@ -59,3 +59,27 @@ label.addEventListener("click", btnPesquisaMq = () => {
     pedro()
     
 })
+
+
+
+// ESPAÇO
+
+const changeRaceButton = document.querySelector("#changeRace")                                            
+const moonSlayer = document.querySelector("#moonGridSlayer")
+let show2 = true
+
+
+changeRaceButton.addEventListener("click", raquel = () => {
+    show2 = !show2
+
+    if(show2) {
+        moonSlayer.style.marginRight = "170%"
+        console.log("rarara")
+    } else {
+        moonSlayer.style.marginRight = "0"
+    }
+})
+
+raquel()
+
+
