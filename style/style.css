@@ -260,6 +260,11 @@
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.507);
 }
 
+#personagens {
+    display: flex;
+    max-width: 100%;
+}
+
 #moonGridDemon {
     display: grid;
     grid-template-columns: repeat(4, 1fr);      
@@ -270,6 +275,19 @@
     max-width: 1200px;
     height: 100%;
     margin: 0 auto;
+}
+
+#moonGridSlayer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);      
+    gap: 15px 0px ;
+    padding: 25px;
+    justify-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+    margin-left: -100%;
 }
 
 .moon {
@@ -351,6 +369,71 @@
     background-size: cover;
 }
 
+
+.moonShinobu {
+    background: url(../imagens/SHINOBU/f421fc9ddd7d1c499c5c576abd35912e.jpg) center;
+    background-size: cover;
+}
+
+.moonRengoku {
+    background: url(../imagens/RENGOKU/a004bed9b93383801037fcc83182784d.jpg) center;
+    background-size: cover;
+}
+
+.moonTokito {
+    background: url(../imagens/TOKITO/51714613506d90b5a5431e1a306f3622.jpg) center;
+    background-size: cover;
+}
+
+.moonGyomei {
+    background: url(../imagens/GYOMEI/55df7c5c7f17c7a725d4a2fe4b3ca011.jpg) center;
+    background-size: cover;
+}
+
+.moonInosuke {
+    background: url(../imagens/INOSUKE/6fabb2b852ebc415a4880deb973c0566.jpg) center;
+    background-size: cover; 
+}
+
+.moonObanai {
+    background: url(../imagens/OBANAI/ec39b73af5ce438d6e77e3a597f924ce.jpg) center;
+    background-size: cover;
+}
+
+.moonTengen {
+    background: url(../imagens/TENGEN/f9de850ed66f91d7489c9f7e152653f6.jpg) center;
+    background-size: cover;
+}
+
+.moonSanemi {
+    background: url(../imagens/SANEMI/74f6ad1f0664885df8c29df98a9ce7b3.jpg) center;
+    background-size: cover;
+}
+
+.moonMitsuri {
+    background: url(../imagens/MITSURI/eee64b45f263176605f695da75eb1352.jpg) right;
+    background-size: cover;
+}
+
+.moonTomioka {
+    background: url(../imagens/TOMIOKA/92dfbd5f28b35dd5417e59c5a55792a8.jpg) center;
+    background-size: cover;
+}
+
+.moonYoriichi {
+    background: url(../imagens/YORIICHI/e4e18fbfad0abc4b6b2c0e14ff38addd.jpg) center;
+    background-size: cover;
+}
+
+.moonTangiro {
+    background: url(../imagens/TANJIRO/a09c3bcb3ac116de06dcb2e71317cc53.png) center;
+    background-size: cover;
+}
+
+.moonZenitsu {
+    background: url(../imagens/ZENITSU/daa2322fd63504414a654678baa60e17.jpg) center;
+    background-size: cover;
+}
 
 #footer {
     background: var(--cor-bgFooter);
