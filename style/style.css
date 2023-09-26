@@ -249,7 +249,7 @@
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.507);
 }
 
-#personagensWrapper {
+#personagens {
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -257,17 +257,10 @@
     margin: 0 auto;
     height: auto;
     overflow: hidden;
-}
-
-#personagens {
-    display: flex;
-    align-items: flex-start;
-    width: 100%;
-    transition: .5s;
 
 }
 
-.moonGridRaces {
+#moonGridDemon {
     width: 50%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -279,12 +272,16 @@
     height: 100%;
 }
 
-#moonGridDemon {
-    transition: .5s;
-}
-
 #moonGridSlayer {
-    transition: .5s;
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    justify-content: center;
+    padding: 20px;
+    gap: 15px 15px;
+    max-width: 1200px;
+    height: 100%;
 }
 
 .moon {

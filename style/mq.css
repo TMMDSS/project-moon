@@ -1,10 +1,15 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1024px) {
     /* HEADER */
 
     /* MAIN */
     #moonGridDemon {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);      
+        grid-template-columns: repeat(4, 1fr);      
+    }
+
+    #moonGridSlayer {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);      
     }
     
     .moon {
@@ -20,43 +25,6 @@
 }
 
 
-
-
-@media screen and (max-width: 800px) {
-    /* HEADER */
-    #search {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 40%;
-        height: 70%;
-    }
-
-    /* MAIN */
-    #moonGridDemon {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);      
-    }
-
-
-    #footerWrapper {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        width: 80%;
-        margin: auto;
-        padding: 50px 25px;
-    }
-
-    #footerSocial {
-        margin-top: 25px;
-    }
-    
-    #footerSocial >  h3,  p {
-        display: none;
-    }
-
-}
 
 
 
@@ -95,6 +63,13 @@
     }
 
     #moonGridDemon {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        width: 100%;
+        margin: auto;
+    }
+
+    #moonGridSlayer {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         width: 100%;
@@ -181,6 +156,14 @@
         width: 100%;
         margin: auto;
     }
+    
+    #moonGridSlayer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+
+    }
 
     .moon {
         width: 165px;
@@ -243,6 +226,13 @@
         width: 100%;
         margin: auto;
     }
+
+    #moonGridSlayer {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        margin: auto;
+    }
     
     .moon {
         width: 150px;
@@ -269,7 +259,7 @@
     }
     
     /* MAIN */
-    #moonGridDemon {
+    #moonGridRaces {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         width: 100%;

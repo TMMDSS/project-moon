@@ -73,15 +73,13 @@ changeRaceButton.addEventListener("click", raquel = () => {
     show2 = !show2
 
     if(show2) {
-        gridDemon.style.transform = "translateX(-100%)"
-        gridSlayer.style.transform = "translateX(50%)"
+
         gridSlayer.style.display = "grid"
         gridDemon.style.display = "none"
 
         changeRaceButton.src = "imagens/NEW/selectionKagaya.png"
     } else {
-        gridDemon.style.transform = "translateX(50%)"
-        gridSlayer.style.transform = "translateX(150%)"
+
         gridSlayer.style.display = "none"
         gridDemon.style.display = "grid"
         
