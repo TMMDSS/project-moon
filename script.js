@@ -10,6 +10,19 @@ let guiasOni = [
   { file: "cardGyutaro.html", name: "Gyutaro" },
   { file: "cardDaki.html", name: "Daki" },
   { file: "cardKaigaku.html", name: "Kaigaku" },
+  { file: "cardGyomei.html", name: "Gyomei"},
+  { file: "cardInosuke.html", name: "Inosuke"},
+  { file: "cardMitsuri.html", name: "Mitsuri"},
+  { file: "cardObanai.html", name: "Obanai"},
+  { file: "cardRengoku.html", name: "Rengoku"},
+  { file: "cardSanemi.html", name: "Sanemi"},
+  { file: "cardShinobu.html", name: "Shinobu"},
+  { file: "cardTanjiro.html", name: "Tanjiro"},
+  { file: "cardTengen.html", name: "Tengen"},
+  { file: "cardTokito.html", name: "Tokito"},
+  { file: "cardTomioka.html", name: "Tomioka"},
+  { file: "cardYoriishi.html", name: "Yoriishi"},
+  { file: "cardZenitsu.html", name: "Zenitsu"}
 ];
 
 let items = guiasOni;
