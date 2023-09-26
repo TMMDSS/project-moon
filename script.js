@@ -65,7 +65,6 @@ label.addEventListener("click", btnPesquisaMq = () => {
 
 const gridDemon = document.querySelector("#moonGridDemon")
 const gridSlayer = document.querySelector("#moonGridSlayer")
-const imgRace = document.querySelector("#changeRace")
 const changeRaceButton = document.querySelector("#changeRace")      
 let show2 = true
 
@@ -79,14 +78,14 @@ changeRaceButton.addEventListener("click", raquel = () => {
         gridSlayer.style.display = "grid"
         gridDemon.style.display = "none"
 
-        imgRace.src = "/imagens/NEW/selectionKagaya.png"
+        changeRaceButton.src = "imagens/NEW/selectionKagaya.png"
     } else {
         gridDemon.style.transform = "translateX(50%)"
         gridSlayer.style.transform = "translateX(150%)"
         gridSlayer.style.display = "none"
         gridDemon.style.display = "grid"
         
-        imgRace.src = "/imagens/NEW/selectionMuzan.jpg"
+        changeRaceButton.src = "imagens/NEW/selectionMuzan.jpg"
     }
 })
 
