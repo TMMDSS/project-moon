@@ -61,11 +61,12 @@ label.addEventListener("click", btnPesquisaMq = () => {
 })
 
 
-
 // ESPAÇO
 
-const changeRaceButton = document.querySelector("#changeRace")                                            
-const moonSlayer = document.querySelector("#moonGridSlayer")
+const gridDemon = document.querySelector("#moonGridDemon")
+const gridSlayer = document.querySelector("#moonGridSlayer")
+const imgRace = document.querySelector("#changeRace")
+const changeRaceButton = document.querySelector("#changeRace")      
 let show2 = true
 
 
@@ -73,13 +74,20 @@ changeRaceButton.addEventListener("click", raquel = () => {
     show2 = !show2
 
     if(show2) {
-        moonSlayer.style.marginRight = "170%"
-        console.log("rarara")
+        gridDemon.style.transform = "translateX(-100%)"
+        gridSlayer.style.transform = "translateX(50%)"
+        gridSlayer.style.display = "grid"
+        gridDemon.style.display = "none"
+
+        imgRace.src = "/imagens/NEW/selectionKagaya.png"
     } else {
-        moonSlayer.style.marginRight = "0"
+        gridDemon.style.transform = "translateX(50%)"
+        gridSlayer.style.transform = "translateX(150%)"
+        gridSlayer.style.display = "none"
+        gridDemon.style.display = "grid"
+        
+        imgRace.src = "/imagens/NEW/selectionMuzan.jpg"
     }
 })
 
 raquel()
-
-

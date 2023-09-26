@@ -98,16 +98,6 @@
     }
 }
 
-@keyframes modal {
-    from {
-        opacity: 0;
-        transform: translate3d(0,-60px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
-}
 
 #header {
     display: flex;
@@ -259,41 +249,42 @@
     text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.507);
 }
 
-#personagens {
+#personagensWrapper {
     display: flex;
-    justify-content: space-evenly;
     align-items: flex-start;
-    gap: 20%;
-    max-width: 100%;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
     overflow: hidden;
 }
 
-#moonGridDemon {
+#personagens {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    transition: .5s;
+
+}
+
+.moonGridRaces {
+    width: 50%;
     display: grid;
-    grid-template-columns: repeat(4, 1fr);      
-    gap: 15px 0px ;
-    padding: 25px;
+    grid-template-columns: repeat(4, 1fr);
     justify-items: center;
     justify-content: center;
+    padding: 20px;
+    gap: 15px 15px;
     max-width: 1200px;
     height: 100%;
-    margin: 0 auto;
-    margin-left: 80%;
+}
+
+#moonGridDemon {
+    transition: .5s;
 }
 
 #moonGridSlayer {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);      
-    gap: 15px 0px ;
-    padding: 25px;
-    justify-items: center;
-    justify-content: center;
-    max-width: 1200px;
-    height: 100%;
-    margin: 0 auto;
-    margin-right: 0;
     transition: .5s;
-
 }
 
 .moon {
