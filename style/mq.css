@@ -35,12 +35,19 @@
     #search {
         margin-left: 0;
         position: relative;
+        border: none;
+    }
+    #searchInputDiv {
+        width: 40%;
+        margin: 0 auto;
     }
     #searchInput input {
         display: block;
-        position: absolute;
-        top: 75px;
-        margin-left: -200vw;
+        position: fixed;
+        z-index: 3;
+        background-color: var(--cor-bgListaOptions);
+        top: 99px;
+        left: 100%;
         transition: .1s;
         width: 100%;
         padding-left: 5px;
@@ -51,7 +58,7 @@
     }
 
     #searchContent {
-        top: 126px;
+        top: 114px;
         width: 100%;
     }
 
@@ -147,9 +154,15 @@
 
     #search input {
         width: 100%;
+        top: 71px;
     }
     .fa-magnifying-glass {
         left: 25px;
+    }
+
+    #searchContent {
+        width: 425px;
+        left: -160px;
     }
     
     /* MAIN */
@@ -222,6 +235,11 @@
 
 
 @media screen and (max-width: 375px) {
+    /* HEADER */
+    #searchContent {
+        width: 375px;
+        left: -140px;
+    }
     /* MAIN */
     #moonGridDemon {
         display: grid;
@@ -259,6 +277,11 @@
     #race img {
         width: 35px;
         border-radius: 5px;
+    }
+
+    #searchContent {
+        width: 320px;
+        left: -125px;
     }
     
     /* MAIN */

@@ -61,11 +61,11 @@ label.addEventListener("click", btnPesquisaMq = () => {
         show = !show
    
         if (show) {
-            searchInput.style.marginLeft = "-200vw"
+            searchInput.style.left = "-100%"
             label.style.color = ""
 
         } else {
-            searchInput.style.marginLeft = "0"
+            searchInput.style.left = "0%"
             label.style.color = "red"
         }
     }
