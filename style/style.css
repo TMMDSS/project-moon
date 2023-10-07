@@ -41,18 +41,18 @@
     --cor-kokushibo--3: #a51127;
     --cor-kokushibo--4: #F5C651;
 
-    --cor-douma--1: #CEB394;
-    --cor-douma--2: #c9bb6c;
-    --cor-douma--3: #76b4ee;
-    --cor-douma--4: #f52559;
+    --cor-doma--1: #CEB394;
+    --cor-doma--2: #c9bb6c;
+    --cor-doma--3: #76b4ee;
+    --cor-doma--4: #f52559;
 
     --cor-akaza--1: #5C6F7A;
     --cor-akaza--2: #424f5f;
     --cor-akaza--3: #0F274D;
     --cor-akaza--4: #F9FAD6;
 
-    --cor-hantengu--1: #5F0B13;
-    --cor-hantengu--2: #3A2327;
+    --cor-hantengu--1: #5f2d0b;
+    --cor-hantengu--2: #2c3a23;
     --cor-hantengu--3: #ece7ea;
     --cor-hantengu--4: #101012;
 
@@ -95,6 +95,43 @@
 
     100% {
         transform: scale(1);
+    }
+}
+
+@keyframes informationTieH1 {
+    0% {
+        background-color: white;
+        width: 100%;
+        transform: scale(0);
+        margin-left: 0;
+    }
+
+    50% {
+        background-color: white;
+        width: 50%;
+        width: 130%;
+        transform: scale(0.5);
+        margin-left: 0;
+    }
+
+    100% {
+        background-color: white;
+        width: 0%;
+        transform: scale(1);
+    }
+}
+
+@keyframes detailsTieP {
+    0% {
+        width: 0%;
+    }
+    
+    50% {
+        width: 100%;
+    }
+    
+    100% {
+        width: 50%;
     }
 }
 
@@ -521,4 +558,95 @@
 #secCredit a {
     text-decoration: none;
     color: gray;
+}
+
+
+
+
+
+/* A Q U I  C O M E Ç A  O S  C A R D S  I N D E X */
+
+#mainCharacterWrapepr {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 700px;
+    position: relative;
+}
+
+#informationTie {
+    background: #646060b2;
+    width: 300px;
+    padding: 15px;
+
+    position: absolute;
+    top: 0px;
+    left: 100px;
+    bottom: 0px;
+}
+#informationTie h1 {
+    color: white;
+    font-size: 58px;
+    margin-left: 35%;
+    animation: informationTieH1 2s ;
+}
+#detailsTie {
+    padding: 25px;
+    border-left: 1px solid white;
+}
+#informationTie p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+}
+#informationTie p:not(:last-child) {
+    margin-bottom: 35px;
+}
+
+#informationTie p::after {
+    content: "";
+    width: 50%;
+    height: 5px;
+    background-color: white;
+    position: absolute;
+    bottom: -10px;
+    animation: detailsTieP 1.5s;
+    left: 0px;
+}
+
+
+#mainKokushibo {
+    background: radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
+    width: 100%;
+}
+
+#mainDoma {
+    background: radial-gradient(ellipse at top, var(--cor-doma--4), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-doma--3), var(--cor-doma--1));
+    width: 100%;
+}
+
+#mainAkaza {
+    background: radial-gradient(ellipse at top, var(--cor-akaza--3), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-akaza--1), var(--cor-akaza--3));
+    width: 100%;
+}
+
+#mainHantengu {
+    background: radial-gradient(ellipse at top, var(--cor-hantengu--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-hantengu--2), var(--cor-hantengu--4));
+    width: 100%;
+}
+
+#mainGyokko {
+    background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-gyokko--3), var(--cor-gyokko--2));
+    width: 100%;
+}
+
+#mainGyutaro {
+    background: radial-gradient(ellipse at top, var(--cor-gyutaro--2), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-gyutaro--1), var(--cor-gyutaro--4));
+    width: 100%;
 }
