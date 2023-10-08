@@ -620,6 +620,19 @@
     left: 0px;
 }
 
+#mainFhotoCharacter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 0px auto;
+    width: 900px;
+    height: 700px;
+}
+
+#mainFhotoCharacter img {
+    height: 100%;
+}
+
 
 #mainKokushibo {
     background: radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
@@ -637,22 +650,26 @@
     background: radial-gradient(ellipse at top, var(--cor-akaza--3), transparent),
     radial-gradient(ellipse at bottom, var(--cor-akaza--1), var(--cor-akaza--3));
     width: 100%;
+    overflow: hidden;
 }
 
 #mainHantengu {
     background: radial-gradient(ellipse at top, var(--cor-hantengu--1), transparent),
     radial-gradient(ellipse at bottom, var(--cor-hantengu--2), var(--cor-hantengu--4));
     width: 100%;
+    overflow: hidden;
 }
 
 #mainGyokko {
     background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
     radial-gradient(ellipse at bottom, var(--cor-gyokko--3), var(--cor-gyokko--2));
     width: 100%;
+    overflow: hidden;
 }
 
 #mainGyutaro {
     background: radial-gradient(ellipse at top, var(--cor-gyutaro--2), transparent),
     radial-gradient(ellipse at bottom, var(--cor-gyutaro--1), var(--cor-gyutaro--4));
     width: 100%;
+    overflow: hidden;
 }
