@@ -1,23 +1,23 @@
 @charset 'utf-8';
 
 @font-face {
-    font-family: pacita;
-    src: url(fontes/pecita/Pecita.ttf);
+    font-family: blood-crow;
+    src: url(../fontes/Font/blood-crow.ttf);
 }
 
 @font-face {
-    font-family: CleanDirty;
-    src: url(fontes/CleanDirty/CleanDirty.ttf);
+    font-family: NES-logo;
+    src: url(../fontes/nes-logo/NES-Logo.ttf);
 }
 
 @font-face {
-    font-family: Mites;
-    src: url(fontes/Dust-mites/Dust\ Mites.ttf);
+    font-family: lacquer;
+    src: url(../fontes/Lacquer/Lacquer-Regular.ttf);
 }
 
 @font-face {
-    font-family: Lacquer;
-    src: url(fontes/Lacquer/Lacquer-Regular.ttf);
+    font-family: quicksand;
+    src: url(../fontes/Quicksand/Quicksand-Regular.ttf);
 }
 
 * {
@@ -67,10 +67,10 @@
     --cor-gyutaro--4: #ca0bba;
 
 
-    --fonte--1: pacita;
-    --fonte--2: CleanDirty;
-    --fonte--3: Mites;
-    --fonte--4: Lacquer;
+    --fonte--1: blood-crow;
+    --fonte--2: NES-logo;
+    --fonte--3: lacquer;
+    --fonte--4: quicksand;
 
 }
 
@@ -280,9 +280,8 @@
 
 #explanationText {
     width: 650px;
-    color: wheat;
+    color: red;
     font-size: 16px;
-    font-family: 'Bricolage Grotesque', sans-serif;
     font-weight: 400;
     letter-spacing: 3px;
     text-align: center;
@@ -586,6 +585,7 @@
 }
 #informationTie h1 {
     color: white;
+    font-family: var(--fonte--1);
     font-size: 58px;
     margin-left: 35%;
     animation: informationTieH1 2s ;
@@ -596,6 +596,7 @@
 }
 #informationTie p {
     color: white;
+    font-family: var(--fonte--4);
     font-size: 20px;
     position: relative;
 }
