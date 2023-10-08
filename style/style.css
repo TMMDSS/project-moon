@@ -638,12 +638,14 @@
     background: radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
     radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
     width: 100%;
+    overflow: hidden;
 }
 
 #mainDoma {
     background: radial-gradient(ellipse at top, var(--cor-doma--4), transparent),
     radial-gradient(ellipse at bottom, var(--cor-doma--3), var(--cor-doma--1));
     width: 100%;
+    overflow: hidden;
 }
 
 #mainAkaza {
