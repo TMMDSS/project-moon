@@ -598,6 +598,8 @@
 #detailsTie {
     padding: 25px;
     border-left: 1px solid white;
+    
+    position: relative;
 }
 #informationTie p {
     color: white;
@@ -619,6 +621,19 @@
     animation: detailsTieP 1.5s;
     left: 0px;
 }
+
+#characterFullBody {
+    display: none;
+    width: 120px;
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+#characterFullBody img {
+    width: 100%;
+}
+
 
 #mainFhotoCharacter {
     display: flex;

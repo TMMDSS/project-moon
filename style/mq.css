@@ -192,6 +192,30 @@
         border-radius: 10px;
     }
 
+    #informationTie {
+        background: #646060b2;
+        width: 100%;
+        padding: 15px;
+    
+        position: static;
+        margin: 0 auto 0 10px;
+    }
+    #informationTie h1 {
+        color: white;
+        font-family: var(--fonte--1);
+        font-size: 58px;
+        margin-left: 0%;
+        animation: none;
+    }
+
+    #mainFhotoCharacter img {
+        display: none;
+    }
+
+    #characterFullBody {
+        display: block;
+    }
+
 
     /* FOOTER */
     #footerWrapper {
