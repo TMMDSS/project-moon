@@ -113,7 +113,7 @@
         margin-top: 25px;
     }
 
-    #footerSocial > h3, p {
+    #footerSocial h3, #footerSocial p {
         display: none;
     }
 }
@@ -223,9 +223,6 @@
         text-align: center;
     }
     
-    #footerSocial > h3, p {
-        display: none;
-    }
     
     #footerSocialIcon {
         justify-content: center;
