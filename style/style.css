@@ -835,10 +835,47 @@
 }
 
 #mainGyokko {
-    background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
+    background: url(../imagens/GYOKKO/621bcd834bf03534fffd7d99_Gyokko.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
     radial-gradient(ellipse at bottom, var(--cor-gyokko--3), var(--cor-gyokko--2));
+    background-size: contain;
     width: 100%;
     overflow: hidden;
+}
+
+.buttonStatistics.gyokko {
+    background: linear-gradient(to top, var(--cor-gyokko--4), var(--cor-gyokko--1) 15%, var(--cor-gyokko--2));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.gyokko2 {
+    background: linear-gradient(to top, var(--cor-gyokko--4), var(--cor-gyokko--1) 15%, var(--cor-gyokko--2));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttonStatistics:active.gyokko:active {
+    background: black;
+    color: var(--cor-gyokko--2);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.gyokko2:active {
+    background: black;
+    color: var(--cor-gyokko--2);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
 }
 
 #mainGyutaro {

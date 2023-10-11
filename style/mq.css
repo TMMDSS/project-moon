@@ -311,6 +311,34 @@
         border-radius: 20px;
     }
 
+    #mainGyokko {
+        background: radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
+        radial-gradient(ellipse at bottom, var(--cor-gyokko--3), var(--cor-gyokko--2));
+    }
+
+    .buttonStatistics.gyokko {
+        background: linear-gradient(to top, var(--cor-gyokko--4), var(--cor-gyokko--1) 15%, var(--cor-gyokko--2));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .buttonStatistics.gyokko2 {
+        background: linear-gradient(to top, var(--cor-gyokko--4), var(--cor-gyokko--1) 15%, var(--cor-gyokko--2));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
     #informationTie {
         background: #646060b2;
         width: 100%;
