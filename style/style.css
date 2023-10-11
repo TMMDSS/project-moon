@@ -648,6 +648,15 @@
     height: 100%;
 }
 
+#buttonsDiv {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+    position: absolute;
+    right: 0;
+    bottom: 100px;
+}
 
 #mainKokushibo {
     background: url(../imagens/KOKUSHIBO/upper_moon_1_kokushibo_png_by_tar3kk_dfxmm8f-pre.png) no-repeat, radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
@@ -657,16 +666,6 @@
     overflow: hidden;
 
     position: relative;
-}
-
-#buttonsDiv {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-
-    position: absolute;
-    right: 0;
-    bottom: 100px;
 }
 
 .buttonStatistics.kokushibo {
@@ -705,10 +704,46 @@
 }
 
 #mainDoma {
-    background: radial-gradient(ellipse at top, var(--cor-doma--4), transparent),
+    background: url(../imagens/DOMA/Imagem_2023-05-28_183322728.webp) no-repeat center right, radial-gradient(ellipse at top, var(--cor-doma--4), transparent),
     radial-gradient(ellipse at bottom, var(--cor-doma--3), var(--cor-doma--1));
+    background-size: contain;
     width: 100%;
     overflow: hidden;
+}
+
+.buttonStatistics.doma {
+    background: linear-gradient(to top, var(--cor-doma--4) 30%, var(--cor-doma--2), var(--cor-doma--3));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.doma2 {
+    background: linear-gradient(to top, var(--cor-doma--4) 30%, var(--cor-doma--2), var(--cor-doma--3));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.doma:active {
+    background: black;
+    color: var(--cor-doma--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.doma2:active {
+    background: black;
+    color: var(--cor-doma--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
 }
 
 #mainAkaza {
@@ -743,6 +778,12 @@
 }
 
 .buttonStatistics:active.akaza:active {
+    background: black;
+    color: var(--cor-akaza--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.akaza2:active {
     background: black;
     color: var(--cor-akaza--4);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
