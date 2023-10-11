@@ -192,6 +192,69 @@
         border-radius: 10px;
     }
 
+    #mainKokushibo {
+        background:  radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
+        radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
+    }
+
+    #buttonsDiv {
+        position: absolute;
+        bottom: 10%;
+        right: 50%;
+        transform: translate(50%, 0%);
+    }
+    
+    .buttonStatistics.kokushibo {
+        background: linear-gradient(to top, var(--cor-kokushibo--2) 15%, var(--cor-kokushibo--4), var(--cor-kokushibo--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .buttonStatistics.kokushibo2 {
+        background: linear-gradient(to top, var(--cor-kokushibo--2) 15%, var(--cor-kokushibo--4), var(--cor-kokushibo--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
+    #mainAkaza {
+        background: radial-gradient(ellipse at top, var(--cor-akaza--3), transparent),
+        radial-gradient(ellipse at bottom, var(--cor-akaza--1), var(--cor-akaza--3));
+    }
+
+    .buttonStatistics.akaza {
+        background: linear-gradient(to top, var(--cor-akaza--3) 15%, var(--cor-akaza--2), var(--cor-akaza--1));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .buttonStatistics.akaza2 {
+        background: linear-gradient(to top, var(--cor-akaza--3) 15%, var(--cor-akaza--2), var(--cor-akaza--1));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 24px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
     #informationTie {
         background: #646060b2;
         width: 100%;
