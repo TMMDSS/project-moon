@@ -395,6 +395,34 @@
         border-radius: 20px;
     }
 
+    #mainKaigaku {
+        background: radial-gradient(ellipse at top, var(--cor-kaigaku--1), transparent),
+        radial-gradient(ellipse at bottom, var(--cor-kaigaku--4), var(--cor-kaigaku--1));
+    }
+
+    .buttonStatistics.kaigaku {
+        background: linear-gradient(to top, var(--cor-kaigaku--2), var(--cor-kaigaku--1) 15%, var(--cor-kaigaku--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .buttonStatistics.kaigaku2 {
+        background: linear-gradient(to top, var(--cor-kaigaku--2), var(--cor-kaigaku--1) 15%, var(--cor-kaigaku--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
     #informationTie {
         background: #646060b2;
         width: 100%;

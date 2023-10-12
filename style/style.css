@@ -71,6 +71,11 @@
     --cor-daki--3: #940C56;
     --cor-daki--4: #F8F3A3;
 
+    --cor-kaigaku--1: #B8FFFE;
+    --cor-kaigaku--2: #26E7F2;
+    --cor-kaigaku--3: #FFFE05;
+    --cor-kaigaku--4: #E7C09E;
+
 
 
     --fonte--1: blood-crow;
@@ -968,6 +973,50 @@
 .buttonStatistics:active.daki2:active {
     background: black;
     color: var(--cor-daki--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+#mainKaigaku {
+    background: url(../imagens/KAIGAKU/kaigaku__human_render_by_lxker1x_df06p28-fullview.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-kaigaku--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-kaigaku--4), var(--cor-kaigaku--1));
+    background-size: contain;
+    width: 100%;
+    overflow: hidden;
+}
+
+.buttonStatistics.kaigaku {
+    background: linear-gradient(to top, var(--cor-kaigaku--2), var(--cor-kaigaku--1) 15%, var(--cor-kaigaku--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.kaigaku2 {
+    background: linear-gradient(to top, var(--cor-kaigaku--2), var(--cor-kaigaku--1) 15%, var(--cor-kaigaku--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttonStatistics:active.kaigaku:active {
+    background: black;
+    color: var(--cor-kaigaku--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.kaigaku2:active {
+    background: black;
+    color: var(--cor-kaigaku--4);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
