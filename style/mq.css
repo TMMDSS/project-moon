@@ -339,6 +339,34 @@
         border-radius: 20px;
     }
 
+    #mainGyutaro {
+        background: radial-gradient(ellipse at top, var(--cor-gyutaro--2), transparent),
+        radial-gradient(ellipse at bottom, var(--cor-gyutaro--1), var(--cor-gyutaro--4));
+    }
+
+    .buttonStatistics.gyutaro {
+        background: linear-gradient(to top, var(--cor-gyutaro--2), var(--cor-gyutaro--1) 15%, var(--cor-gyutaro--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+    .buttonStatistics.gyutaro2 {
+        background: linear-gradient(to top, var(--cor-gyutaro--2), var(--cor-gyutaro--1) 15%, var(--cor-gyutaro--4));
+        color: white;
+        font-weight: 400;
+        font-family: var(--fonte--2);
+        font-size: 28px;
+        text-shadow: 2px 2px 5px black;
+        padding: 15px;
+        cursor: pointer;
+        border-radius: 20px;
+    }
+
     #informationTie {
         background: #646060b2;
         width: 100%;
