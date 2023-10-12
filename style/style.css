@@ -66,6 +66,12 @@
     --cor-gyutaro--3: #F3A686;
     --cor-gyutaro--4: #ca0bba;
 
+    --cor-daki--1: #D84DDF;
+    --cor-daki--2: #7A3284;
+    --cor-daki--3: #940C56;
+    --cor-daki--4: #F8F3A3;
+
+
 
     --fonte--1: blood-crow;
     --fonte--2: NES-logo;
@@ -918,6 +924,50 @@
 .buttonStatistics:active.gyutaro2:active {
     background: black;
     color: var(--cor-gyutaro--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+#mainDaki {
+    background: url(../imagens/DAKI/kimetsu_no_yaiba__yuukaku_hen___daki_by_sayuricell_dezvo19-pre.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-daki--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-daki--4), var(--cor-daki--3));
+    background-size: contain;
+    width: 100%;
+    overflow: hidden;
+}
+
+.buttonStatistics.daki {
+    background: linear-gradient(to top, var(--cor-daki--2), var(--cor-daki--1) 15%, var(--cor-daki--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.daki2 {
+    background: linear-gradient(to top, var(--cor-daki--2), var(--cor-daki--1) 15%, var(--cor-daki--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.buttonStatistics:active.daki:active {
+    background: black;
+    color: var(--cor-daki--4);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.daki2:active {
+    background: black;
+    color: var(--cor-daki--4);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
