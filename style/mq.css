@@ -2,6 +2,91 @@
     /* HEADER */
 
     /* MAIN */
+
+    #mainExplanationDemonDiv1 {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    #mainExplanationDemonDiv1 h2 {
+        font-size: 32px;
+        font-family: var(--fonte--3);
+        margin-bottom: 5px;
+    }
+    #mainExplanationDemonDiv2 {
+        padding: 0px 250px 65px 0px;
+        text-align: center;
+        position: relative;
+    }
+    #mainExplanationDemonDiv2Img img {
+        position: absolute;
+        right: -50px;
+        bottom: 100px;
+        width: 40%;
+    }
+    
+    #mainExplanationDemonDiv3 {
+        padding: 0px 0px 100px 250px;
+        text-align: center;
+        position: relative;
+    }
+    #mainExplanationDemonDiv3Img img {
+        position: absolute;
+        left: -70px;
+        top: 0px;
+        bottom: 0px;
+        width: 40%;
+    }
+    
+    #mainExplanationDemonDiv4 {
+        padding: 0px 0px 10px 200px;
+        border-bottom: 1px solid gray;
+    
+        position: relative;
+    }
+    #mainExplanationDemonDiv4 h2 {
+        font-size: 32px;
+        font-family: var(--fonte--3);
+        margin-bottom: 5px;
+    }
+    #mainExplanationDemonDiv4Img img {
+        position: absolute;
+        left: -15px;
+        top: 15px;
+        width: 25%;
+    }
+    
+    #mainExplanationDemonDiv5 {
+        margin-top: 25px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    
+    #mainExplanationDemonDiv6 {
+        padding: 0px 150px 0px 150px;
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     #moonGridDemon {
         display: grid;
         grid-template-columns: repeat(4, 1fr);      
