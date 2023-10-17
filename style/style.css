@@ -25,7 +25,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: var(--fonte--4);
 }
 
 :root {
@@ -34,6 +34,7 @@
     --cor-bgListaOptions: #101014;
     --cor-bgSelectLista: #13131A;
     --cor-bgFooter: #131314;
+    --cor-descriptionFont: #9E9E9E;
 
 
     --cor-kokushibo--1: #150B05;
@@ -296,19 +297,21 @@
 
 #mainExplanationDemon {
     width: 100%;
-    color: white;
+    color: var(--cor-descriptionFont);
 }
 
 #mainExplanationDemonDiv1 {
     width: 50%;
-    margin-bottom: 55px;
+    margin-bottom: 20px;
 }
 #mainExplanationDemonDiv1 h2 {
+    font-size: 32px;
+    font-family: var(--fonte--3);
     margin-bottom: 5px;
 }
 #mainExplanationDemonDiv2 {
     padding: 0px 250px 150px 0px;
-
+    text-align: center;
     position: relative;
 }
 #mainExplanationDemonDiv2Img img {
@@ -319,25 +322,48 @@
 }
 
 #mainExplanationDemonDiv3 {
-    padding: 0px 0px 150px 250px;
-
+    padding: 0px 0px 100px 250px;
+    text-align: center;
     position: relative;
 }
 #mainExplanationDemonDiv3Img img {
     position: absolute;
-    left: -183px;
+    left: -165px;
     top: -132px;
     width: 40%;
 }
 
 #mainExplanationDemonDiv4 {
-    padding: 0px 150px 0px 150px;
+    padding: 0px 0px 10px 200px;
+    border-bottom: 1px solid gray;
 
     position: relative;
 }
+#mainExplanationDemonDiv4 h2 {
+    font-size: 32px;
+    font-family: var(--fonte--3);
+    margin-bottom: 5px;
+}
+#mainExplanationDemonDiv4Img img {
+    position: absolute;
+    left: 20px;
+    top: -5px;
+    width: 15%;
+}
+
 #mainExplanationDemonDiv5 {
+    margin-top: 25px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#mainExplanationDemonDiv6 {
+    padding: 0px 150px 0px 150px;
+    text-align: center;
+    margin-bottom: 50px;
     
 }
+
 
 
 
