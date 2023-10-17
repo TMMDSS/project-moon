@@ -271,38 +271,75 @@
 }
 #mainExplanationCenter {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     width: 90%;
     max-width: 1200px;
-    padding: 25px 50px 0px 85px;
+    padding: 5px 50px 0px 85px;
     margin: auto;
     height: auto;
     border-bottom: 1px solid gray;
 }
 
-#explanationImg {
-    width: 350px;
-}
-
-#explanationImg img {
+#h1MainTitleDiv {
     width: 100%;
+    height: 50px;
+    color: gray;
 }
 
-#explanationText {
-    width: 650px;
+#h1MainTitleDiv h1 {
     text-align: center;
-    text-shadow: 5px 5px 2px rgba(0, 0, 0, 0.507);
+    font-size: 36px;
+    font-family: var(--fonte--1);
 }
 
-#explanationText p {
-    font-size: 18px;
-    color: red;
-    font-family: var(--fonte--4);
-    font-weight: 700;
-    letter-spacing: 3px;
+#mainExplanationDemon {
+    width: 100%;
+    color: white;
+}
+
+#mainExplanationDemonDiv1 {
+    width: 50%;
+    margin-bottom: 55px;
+}
+#mainExplanationDemonDiv1 h2 {
+    margin-bottom: 5px;
+}
+#mainExplanationDemonDiv2 {
+    padding: 0px 250px 150px 0px;
+
+    position: relative;
+}
+#mainExplanationDemonDiv2Img img {
+    position: absolute;
+    right: -40px;
+    bottom: 0px;
+    width: 30%;
+}
+
+#mainExplanationDemonDiv3 {
+    padding: 0px 0px 150px 250px;
+
+    position: relative;
+}
+#mainExplanationDemonDiv3Img img {
+    position: absolute;
+    left: -183px;
+    top: -132px;
+    width: 40%;
+}
+
+#mainExplanationDemonDiv4 {
+    padding: 0px 150px 0px 150px;
+
+    position: relative;
+}
+#mainExplanationDemonDiv5 {
     
 }
+
+
 
 #personagens {
     display: flex;
