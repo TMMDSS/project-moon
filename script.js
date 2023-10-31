@@ -101,3 +101,35 @@ changeRaceButton.addEventListener("click", raquel = () => {
 })
 
 raquel()
+
+
+// H E A D E R  F I X O
+
+if (window.location.pathname === '/index.html' && window.innerWidth >= 1024) {
+
+    window.addEventListener('scroll', function() {
+        const header = document.querySelector("#header"); // Seletor do cabeçalho
+        const scrollPosition = window.scrollY; // Posição de rolagem vertical
+    
+        // A posição em que você deseja que o cabeçalho fique fixo
+        const triggerPosition = 1000; // Altere esse valor conforme necessário
+    
+        if (scrollPosition >= triggerPosition) {
+        header.style.position = 'fixed'
+        header.style.top = '-4px'
+        header.style.zIndex = "5"
+        header.style.height = "75px"
+        header.style.scale = ".9"
+        
+        header.style.borderRadius = "15px"
+        header.style.transition = "1s"
+    } else {
+        header.style.position = 'relative';
+        header.style.scale = ""
+        header.style.borderRadius = ""
+        header.style.top = ""
+        header.style.height = ""
+        header.style.transition = ""
+        }
+    });
+}

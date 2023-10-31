@@ -147,6 +147,19 @@
     }
 }
 
+body {
+    background-color: black;
+}
+
+body::-webkit-scrollbar {
+    background: var(--cor-bgMain);
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: var(--cor-descriptionFont);
+    
+}
 
 #header {
     display: flex;
