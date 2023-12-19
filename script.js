@@ -133,3 +133,13 @@ if (window.location.pathname === '/index.html' && window.innerWidth >= 1024) {
         }
     });
 }
+
+
+// B A R R A  D E  E S T A T I S T I C A
+
+const btnEstatisticas = document.querySelector(".buttonStatistics.kokushibo")
+const estatiticaWrapperMain = document.querySelector("#estatisticasWrapper")
+
+btnEstatisticas.addEventListener("click", () => {
+    console.log("feito")
+})
