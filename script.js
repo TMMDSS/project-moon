@@ -141,7 +141,7 @@ if (window.location.pathname === '/index.html' && window.innerWidth >= 1024) {
 
 
 document.addEventListener("DOMContentLoaded", function() {
-    const btnEstatisticas = document.querySelector(".buttonStatistics.kokushibo")
+    const btnEstatisticas = document.querySelector("#buttonStatistics")
     const estatiticaWrapperMain = document.querySelector(".modalEstatisticas")
 
     btnEstatisticas.addEventListener("click", () => {
