@@ -76,31 +76,33 @@ label.addEventListener("click", btnPesquisaMq = () => {
 
 // ESPAÇO
 
-const gridDemon = document.querySelector("#moonGridDemon")
-const gridSlayer = document.querySelector("#moonGridSlayer")
-const changeRaceButton = document.querySelector("#changeRace")      
-let show2 = true
+document.addEventListener("DOMContentLoaded", function() {
+    const gridDemon = document.querySelector("#moonGridDemon")
+    const gridSlayer = document.querySelector("#moonGridSlayer")
+    const changeRaceButton = document.querySelector("#changeRace")      
+    let show2 = true
 
 
-changeRaceButton.addEventListener("click", raquel = () => {
-    show2 = !show2
+    changeRaceButton.addEventListener("click", raquel = () => {
+        show2 = !show2
 
-    if(show2) {
+        if(show2) {
 
-        gridSlayer.style.display = "grid"
-        gridDemon.style.display = "none"
+            gridSlayer.style.display = "grid"
+            gridDemon.style.display = "none"
 
-        changeRaceButton.src = "imagens/NEW/selectionKagaya.png"
-    } else {
+            changeRaceButton.src = "imagens/NEW/selectionKagaya.png"
+        } else {
 
-        gridSlayer.style.display = "none"
-        gridDemon.style.display = "grid"
-        
-        changeRaceButton.src = "imagens/NEW/selectionMuzan.jpg"
-    }
-})
+            gridSlayer.style.display = "none"
+            gridDemon.style.display = "grid"
+            
+            changeRaceButton.src = "imagens/NEW/selectionMuzan.jpg"
+        }
+    })
 
-raquel()
+    raquel()
+});
 
 
 // H E A D E R  F I X O
@@ -137,9 +139,23 @@ if (window.location.pathname === '/index.html' && window.innerWidth >= 1024) {
 
 // B A R R A  D E  E S T A T I S T I C A
 
-const btnEstatisticas = document.querySelector(".buttonStatistics.kokushibo")
-const estatiticaWrapperMain = document.querySelector("#estatisticasWrapper")
 
-btnEstatisticas.addEventListener("click", () => {
-    console.log("feito")
-})
+document.addEventListener("DOMContentLoaded", function() {
+    const btnEstatisticas = document.querySelector(".buttonStatistics.kokushibo")
+    const estatiticaWrapperMain = document.querySelector(".modalEstatisticas")
+
+    btnEstatisticas.addEventListener("click", () => {
+        estatiticaWrapperMain.classList.add("ModalEstatisticasAtivar")
+    })
+    document.addEventListener("click", (e) => {
+        if (e.target.id == "estatisticasWrapperFechar" || e.target.id == "modalEstatisticas") {
+            estatiticaWrapperMain.classList.remove("ModalEstatisticasAtivar")
+        }
+    })
+
+
+   
+
+    });
+
+    // P A G I N A  D E  E S T A T I S T I C A S
