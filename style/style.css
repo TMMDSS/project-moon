@@ -1248,30 +1248,268 @@ body::-webkit-scrollbar-thumb {
 }
 
 .divPersentKokushibo.força {
-    width: 90%;
+    width: 100%;
     height: 100%;
-    background-image: linear-gradient(to left, #0aca0a, white,#0aca0a);
+    background-image: linear-gradient(to left, var(--cor-kokushibo--3), var(--cor-kokushibo--4),var(--cor-kokushibo--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
 .divPersentKokushibo.velocidade {
-    width: 80%;
+    width: 95%;
     height: 100%;
-    background-image: linear-gradient(to left, #0aca0a, white,#0aca0a);
+    background-image: linear-gradient(to left, var(--cor-kokushibo--3), var(--cor-kokushibo--4),var(--cor-kokushibo--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;  
 }
 .divPersentKokushibo.experiencia {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to left, #0aca0a, white,#0aca0a);
+    background-image: linear-gradient(to left, var(--cor-kokushibo--3), var(--cor-kokushibo--4),var(--cor-kokushibo--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
 .divPersentKokushibo.resistencia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-kokushibo--3), var(--cor-kokushibo--4),var(--cor-kokushibo--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentDoma.força {
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-doma--4), var(--cor-doma--3),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentDoma.velocidade {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-doma--4), var(--cor-doma--3),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentDoma.experiencia {
+    width: 65%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-doma--4), var(--cor-doma--3),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentDoma.resistencia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-doma--4), var(--cor-doma--3),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentAkaza.força {
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-akaza--1), var(--cor-akaza--2),var(--cor-akaza--3));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentAkaza.velocidade {
     width: 80%;
     height: 100%;
-    background-image: linear-gradient(to left, #0aca0a, white,#0aca0a);
+    background-image: linear-gradient(to left, var(--cor-akaza--1), var(--cor-akaza--2),var(--cor-akaza--3));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentAkaza.experiencia {
+    width: 75%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-akaza--1), var(--cor-akaza--2),var(--cor-akaza--3));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentAkaza.resistencia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-akaza--1), var(--cor-akaza--2),var(--cor-akaza--3));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentHantengu.força {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-hantengu--1), var(--cor-hantengu--3),var(--cor-hantengu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentHantengu.velocidade {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-hantengu--1), var(--cor-hantengu--3),var(--cor-hantengu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentHantengu.experiencia {
+    width: 90%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-hantengu--1), var(--cor-hantengu--3),var(--cor-hantengu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentHantengu.resistencia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-hantengu--1), var(--cor-hantengu--3),var(--cor-hantengu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentGyokko.força {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyokko--1), var(--cor-doma--2),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyokko.velocidade {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyokko--1), var(--cor-doma--2),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentGyokko.experiencia {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyokko--1), var(--cor-doma--2),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyokko.resistencia {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyokko--1), var(--cor-doma--2),var(--cor-doma--4));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentGyutaro.força {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyutaro--2), var(--cor-gyutaro--3),var(--cor-gyutaro--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyutaro.velocidade {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyutaro--2), var(--cor-gyutaro--3),var(--cor-gyutaro--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentGyutaro.experiencia {
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyutaro--2), var(--cor-gyutaro--3),var(--cor-gyutaro--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyutaro.resistencia {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyutaro--2), var(--cor-gyutaro--3),var(--cor-gyutaro--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentDaki.força {
+    width: 15%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-daki--1), white, var(--cor-daki--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentDaki.velocidade {
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-daki--1), white, var(--cor-daki--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentDaki.experiencia {
+    width: 20%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-daki--1), white, var(--cor-daki--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentDaki.resistencia {
+    width: 50%; 
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-daki--1), white, var(--cor-daki--1));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentKaigaku.força {
+    width: 35%;
+    height: 100%;
+    background-image: linear-gradient(to left, #BEF7F3, white,#BEF7F3);
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentKaigaku.velocidade {
+    width: 95%;
+    height: 100%;
+    background-image: linear-gradient(to left, #BEF7F3, white,#BEF7F3);
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentKaigaku.experiencia {
+    width: 5%;
+    height: 100%;
+    background-image: linear-gradient(to left, #BEF7F3, white,#BEF7F3);
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentKaigaku.resistencia {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(to left, #BEF7F3, white,#BEF7F3);
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
