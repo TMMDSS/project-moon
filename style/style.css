@@ -1455,7 +1455,54 @@ body::-webkit-scrollbar-thumb {
 }
 .buttonStatistics:active.tengen2:active {
     background: black;
-    color: var(--cor-obanai--3);
+    color: var(--cor-tengen--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
+#mainSanemi {
+    background: url(../imagens/SANEMI/Sanemi_anime.webp) no-repeat, radial-gradient(ellipse at top, var(--cor-sanemi--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-sanemi--3), var(--cor-sanemi--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.sanemi {
+    background: linear-gradient(to top, var(--cor-sanemi--2) 15%, var(--cor-sanemi--3), var(--cor-sanemi--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.sanemi2 {
+    background: linear-gradient(to top, var(--cor-sanemi--2) 15%, var(--cor-sanemi--3), var(--cor-sanemi--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.sanemi:active {
+    background: black;
+    color: var(--cor-sanemi--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.sanemi2:active {
+    background: black;
+    color: var(--cor-sanemi--3);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
@@ -2069,6 +2116,40 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentSanemi.força {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-sanemi--3), var(--cor-sanemi--4),var(--cor-sanemi--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentSanemi.velocidade {
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-sanemi--3), var(--cor-sanemi--4),var(--cor-sanemi--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentSanemi.experiencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-sanemi--3), var(--cor-sanemi--4),var(--cor-sanemi--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentSanemi.resistencia {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-sanemi--3), var(--cor-sanemi--4),var(--cor-sanemi--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
