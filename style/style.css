@@ -1414,6 +1414,53 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+#mainTengen {
+    background: url(../imagens/TENGEN/f9de850ed66f91d7489c9f7e152653f6.jpg) no-repeat, radial-gradient(ellipse at top, var(--cor-tengen--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-tengen--3), var(--cor-tengen--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.tengen {
+    background: linear-gradient(to top, var(--cor-tengen--2) 15%, var(--cor-tengen--3), var(--cor-tengen--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.tengen2 {
+    background: linear-gradient(to top, var(--cor-tengen--2) 15%, var(--cor-tengen--3), var(--cor-tengen--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.tengen:active {
+    background: black;
+    color: var(--cor-tengen--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.tengen2:active {
+    background: black;
+    color: var(--cor-obanai--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
 
 
 
@@ -1988,6 +2035,40 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-obanai--3), var(--cor-obanai--4),var(--cor-obanai--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentTengen.força {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentTengen.velocidade {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentTengen.experiencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentTengen.resistencia {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
