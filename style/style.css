@@ -818,6 +818,7 @@ body::-webkit-scrollbar-thumb {
     bottom: 100px;
 }
 
+
 #mainKokushibo {
     background: url(../imagens/KOKUSHIBO/upper_moon_1_kokushibo_png_by_tar3kk_dfxmm8f-pre.png) no-repeat, radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
     radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
@@ -863,6 +864,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
 #mainDoma {
     background: url(../imagens/DOMA/Imagem_2023-05-28_183322728.webp) no-repeat center right, radial-gradient(ellipse at top, var(--cor-doma--4), transparent),
     radial-gradient(ellipse at bottom, var(--cor-doma--3), var(--cor-doma--1));
@@ -905,6 +907,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
+
 
 #mainAkaza {
     background: url(../imagens/AKAZA/Akaza-PNG-Clipart.png) no-repeat,radial-gradient(ellipse at top, var(--cor-akaza--3), transparent),
@@ -950,6 +953,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
 #mainHantengu {
     background: url(../imagens/HANTENGU/334236003_200363299247458_7802008306760493539_n.png) no-repeat, radial-gradient(ellipse at top, var(--cor-hantengu--1), transparent),
     radial-gradient(ellipse at bottom, var(--cor-hantengu--2), var(--cor-hantengu--4));
@@ -993,6 +997,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
+
 
 #mainGyokko {
     background: url(../imagens/GYOKKO/621bcd834bf03534fffd7d99_Gyokko.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-gyokko--3), transparent),
@@ -1038,6 +1043,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
 #mainGyutaro {
     background: url(../imagens/GYUTARO/6162.webp) no-repeat center right,radial-gradient(ellipse at top, var(--cor-gyutaro--2), transparent),
     radial-gradient(ellipse at bottom, var(--cor-gyutaro--1), var(--cor-gyutaro--4));
@@ -1081,6 +1087,7 @@ body::-webkit-scrollbar-thumb {
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
+
 
 #mainDaki {
     background: url(../imagens/DAKI/kimetsu_no_yaiba__yuukaku_hen___daki_by_sayuricell_dezvo19-pre.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-daki--1), transparent),
@@ -1126,6 +1133,7 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
 #mainKaigaku {
     background: url(../imagens/KAIGAKU/kaigaku__human_render_by_lxker1x_df06p28-fullview.png) no-repeat center right, radial-gradient(ellipse at top, var(--cor-kaigaku--1), transparent),
     radial-gradient(ellipse at bottom, var(--cor-kaigaku--4), var(--cor-kaigaku--1));
@@ -1170,9 +1178,10 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
 #mainShinobu {
-    background: url(../imagens/SHINOBU/shinobu-insect-hashira-Critical-Hits.jpg) no-repeat, radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
-    radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
+    background: url(../imagens/SHINOBU/shinobu-insect-hashira-Critical-Hits.jpg) no-repeat, radial-gradient(ellipse at top, var(--cor-shinobu--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-shinobu--3), var(--cor-shinobu--1));
     background-size: cover;
     background-position: top;
     width: 100%;
@@ -1216,6 +1225,58 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+
+#mainRengoku {
+    background: url(../imagens/RENGOKU/Rengoku_Anime.webp) no-repeat, radial-gradient(ellipse at top, var(--cor-rengoku--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-rengoku--3), var(--cor-rengoku--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.rengoku {
+    background: linear-gradient(to top, var(--cor-rengoku--1) 15%, var(--cor-rengoku--3), var(--cor-rengoku--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.rengoku2 {
+    background: linear-gradient(to top, var(--cor-rengoku--1) 15%, var(--cor-rengoku--3), var(--cor-rengoku--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.rengoku:active {
+    background: black;
+    color: var(--cor-shinobu--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.rengoku2:active {
+    background: black;
+    color: var(--cor-shinobu--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
+
+
+
+/* A Q U I  C O M E Ç A  A  A R E A  D A S  E S T A T I S T I C A */
 
 .modalEstatisticas {
     display: none;
@@ -1620,6 +1681,11 @@ body::-webkit-scrollbar-thumb {
     animation: barraEsta 5s infinite;
 }
 
+
+
+
+
+
 .divPersentShinobu.força {
     width: 1%;
     height: 100%;
@@ -1645,6 +1711,40 @@ body::-webkit-scrollbar-thumb {
     width: 10%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-shinobu--3), var(--cor-shinobu--4),var(--cor-shinobu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentRengoku.força {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-rengoku--3), var(--cor-rengoku--4),var(--cor-rengoku--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentRengoku.velocidade {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-rengoku--3), var(--cor-rengoku--4),var(--cor-rengoku--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentRengoku.experiencia {
+    width: 30%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-rengoku--3), var(--cor-rengoku--4),var(--cor-rengoku--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentRengoku.resistencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-rengoku--3), var(--cor-rengoku--4),var(--cor-rengoku--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
