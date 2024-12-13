@@ -1320,6 +1320,53 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+#mainGyomei {
+    background: url(../imagens/GYOMEI/bwzjzw2dyrzb1.jpg) no-repeat, radial-gradient(ellipse at top, var(--cor-gyomei--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-gyomei--3), var(--cor-gyomei--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.gyomei {
+    background: linear-gradient(to top, var(--cor-gyomei--1) 15%, var(--cor-gyomei--3), var(--cor-gyomei--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.gyomei2 {
+    background: linear-gradient(to top, var(--cor-gyomei--1) 15%, var(--cor-gyomei--3), var(--cor-gyomei--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.gyomei:active {
+    background: black;
+    color: var(--cor-gyomei--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.gyomei2:active {
+    background: black;
+    color: var(--cor-gyomei--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
 
 
 
@@ -1826,6 +1873,40 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-tokito--3), var(--cor-tokito--4),var(--cor-tokito--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentGyomei.força {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyomei--3), var(--cor-gyomei--4),var(--cor-gyomei--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyomei.velocidade {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyomei--3), var(--cor-gyomei--4),var(--cor-gyomei--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentGyomei.experiencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyomei--3), var(--cor-gyomei--4),var(--cor-gyomei--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentGyomei.resistencia {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-gyomei--3), var(--cor-gyomei--4),var(--cor-gyomei--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
