@@ -1261,13 +1261,60 @@ body::-webkit-scrollbar-thumb {
 }
 .buttonStatistics:active.rengoku:active {
     background: black;
-    color: var(--cor-shinobu--3);
+    color: var(--cor-rengoku--3);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
 .buttonStatistics:active.rengoku2:active {
     background: black;
-    color: var(--cor-shinobu--3);
+    color: var(--cor-rengoku--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
+#mainTokito {
+    background: url(../imagens/TOKITO/muichiro-tokito-demon-slayer-has.webp) no-repeat, radial-gradient(ellipse at top, var(--cor-tokito--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-tokito--3), var(--cor-tokito--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.tokito {
+    background: linear-gradient(to top, var(--cor-tokito--1) 15%, var(--cor-tokito--3), var(--cor-tokito--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.tokito2 {
+    background: linear-gradient(to top, var(--cor-tokito--1) 15%, var(--cor-tokito--3), var(--cor-tokito--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.tokito:active {
+    background: black;
+    color: var(--cor-tokito--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.tokito2:active {
+    background: black;
+    color: var(--cor-tokito--3);
     box-shadow: inset 0px 0px 20px 10px #ff000040;
     transform: scale(.95);
 }
@@ -1745,6 +1792,40 @@ body::-webkit-scrollbar-thumb {
     width: 50%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-rengoku--3), var(--cor-rengoku--4),var(--cor-rengoku--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentTokito.força {
+    width: 60%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tokito--3), var(--cor-tokito--4),var(--cor-tokito--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentTokito.velocidade {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tokito--3), var(--cor-tokito--4),var(--cor-tokito--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentTokito.experiencia {
+    width: 30%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tokito--3), var(--cor-tokito--4),var(--cor-tokito--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentTokito.resistencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-tokito--3), var(--cor-tokito--4),var(--cor-tokito--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
