@@ -2045,14 +2045,14 @@ body::-webkit-scrollbar-thumb {
 
 
 .divPersentTengen.força {
-    width: 80%;
+    width: 60%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
 .divPersentTengen.velocidade {
-    width: 80%;
+    width: 90%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-tengen--3), var(--cor-tengen--4),var(--cor-tengen--2));
     background-size: 500% 100%;
