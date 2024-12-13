@@ -77,6 +77,10 @@
     --cor-kaigaku--3: #FFFE05;
     --cor-kaigaku--4: #E7C09E;
 
+    --cor-shinobu--1: #5739DD;
+    --cor-shinobu--2: #AA73DB;
+    --cor-shinobu--3: #C69CF0;
+    --cor-shinobu--4: #F9F7FC;
 
 
     --fonte--1: blood-crow;
@@ -1109,6 +1113,51 @@ body::-webkit-scrollbar-thumb {
     transform: scale(.95);
 }
 
+#mainShinobu {
+    background: url(../imagens/SHINOBU/shinobu-insect-hashira-Critical-Hits.jpg) no-repeat, radial-gradient(ellipse at top, var(--cor-kokushibo--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-kokushibo--3), var(--cor-kokushibo--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.shinobu {
+    background: linear-gradient(to top, var(--cor-shinobu--1) 15%, var(--cor-shinobu--3), var(--cor-shinobu--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.shinobu2 {
+    background: linear-gradient(to top, var(--cor-shinobu--1) 15%, var(--cor-shinobu--3), var(--cor-shinobu--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.shinobu:active {
+    background: black;
+    color: var(--cor-shinobu--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.shinobu2:active {
+    background: black;
+    color: var(--cor-shinobu--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
 
 
 .modalEstatisticas {
@@ -1510,6 +1559,35 @@ body::-webkit-scrollbar-thumb {
     width: 40%;
     height: 100%;
     background-image: linear-gradient(to left, #BEF7F3, white,#BEF7F3);
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+.divPersentShinobu.força {
+    width: 1%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-shinobu--3), var(--cor-shinobu--4),var(--cor-shinobu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentShinobu.velocidade {
+    width: 70%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-shinobu--3), var(--cor-shinobu--4),var(--cor-shinobu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentShinobu.experiencia {
+    width: 40%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-shinobu--3), var(--cor-shinobu--4),var(--cor-shinobu--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentShinobu.resistencia {
+    width: 10%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-shinobu--3), var(--cor-shinobu--4),var(--cor-shinobu--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
