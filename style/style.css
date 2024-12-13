@@ -674,6 +674,12 @@ body::-webkit-scrollbar-thumb {
     flex-direction: column;
 }
 
+#resources {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
 .footerLinkA {
     color: gray;
     text-decoration: none;
@@ -683,16 +689,7 @@ body::-webkit-scrollbar-thumb {
     text-decoration: underline;
 }
 
-#resources {
-    display: flex;
-    flex-direction: column;
-    margin-left: 15px;
-}
 
-#resources a {
-    color: gray;
-    text-decoration: none;
-}
 
 #footerSocial {
     display: flex;
