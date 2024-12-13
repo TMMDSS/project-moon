@@ -1367,6 +1367,53 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+#mainObanai {
+    background: url(../imagens/OBANAI/588068231798db9a752b707e0c08db90.jpeg) no-repeat, radial-gradient(ellipse at top, var(--cor-obanai--1), transparent),
+    radial-gradient(ellipse at bottom, var(--cor-obanai--3), var(--cor-obanai--1));
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.buttonStatistics.obanai {
+    background: linear-gradient(to top, var(--cor-obanai--2) 15%, var(--cor-obanai--3), var(--cor-obanai--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics.obanai2 {
+    background: linear-gradient(to top, var(--cor-obanai--2) 15%, var(--cor-obanai--3), var(--cor-obanai--4));
+    color: white;
+    font-weight: 400;
+    font-family: var(--fonte--2);
+    font-size: 28px;
+    text-shadow: 2px 2px 5px black;
+    padding: 20px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.buttonStatistics:active.obanai:active {
+    background: black;
+    color: var(--cor-obanai--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+.buttonStatistics:active.obanai2:active {
+    background: black;
+    color: var(--cor-obanai--3);
+    box-shadow: inset 0px 0px 20px 10px #ff000040;
+    transform: scale(.95);
+}
+
+
 
 
 
@@ -1907,6 +1954,40 @@ body::-webkit-scrollbar-thumb {
     width: 80%;
     height: 100%;
     background-image: linear-gradient(to left, var(--cor-gyomei--3), var(--cor-gyomei--4),var(--cor-gyomei--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+
+
+
+
+
+
+.divPersentObanai.força {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-obanai--3), var(--cor-obanai--4),var(--cor-obanai--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentObanai.velocidade {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-obanai--3), var(--cor-obanai--4),var(--cor-obanai--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;  
+}
+.divPersentObanai.experiencia {
+    width: 50%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-obanai--3), var(--cor-obanai--4),var(--cor-obanai--2));
+    background-size: 500% 100%;
+    animation: barraEsta 5s infinite;
+}
+.divPersentObanai.resistencia {
+    width: 80%;
+    height: 100%;
+    background-image: linear-gradient(to left, var(--cor-obanai--3), var(--cor-obanai--4),var(--cor-obanai--2));
     background-size: 500% 100%;
     animation: barraEsta 5s infinite;
 }
